@@ -1,0 +1,178 @@
+/* Login.module.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 0 20px;
+  }
+  
+  .navbarBrand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 206.66px;
+    height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .navbarRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbarRight a {
+    margin-left: 20px;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Login Container */
+  .loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 80px);
+    padding-top: 80px; /* Adjust for fixed navbar */
+  }
+  
+  /* Login Box */
+  .loginBox {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .loginHeader {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Form Styles */
+  .formGroup {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .formControl {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #a5f576;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #28a428;
+  }
+  
+  /* Social Login */
+  .socialLogin {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btnSocial {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .socialIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Additional Text */
+  .additionalText {
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .additionalText a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .additionalText a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .footerBottom {
+    padding-top: 20px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .footerBottom a {
+    color: #999;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .footerBottom a:hover {
+    color: #333;
+  }
+  
+  /* Error Message */
+  .errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .forgotPassword {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .forgotPassword:hover {
+    text-decoration: none;
+  }

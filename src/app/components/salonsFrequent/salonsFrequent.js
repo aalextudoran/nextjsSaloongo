@@ -65,7 +65,7 @@ export default function SalonsFrequent() {
                 {salon.tags?.map((tag, index) => (
                   <span key={index} className={styles.tag}>{tag}</span>
                 ))}
-              </div>
+              </div>            
             </div>
           </div>
         ))}
