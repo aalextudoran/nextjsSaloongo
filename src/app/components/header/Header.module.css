@@ -1,0 +1,187 @@
+/* Stilizare generală pentru header */
+.header {
+    padding: 20px;
+    box-shadow: none;
+  }
+  
+  /* Stil pentru bara de navigare */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 0 20px;
+  }
+  
+  .navbarBrand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbarBrand img {
+    width: 206.66px;
+    height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .navbarRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbarRight a {
+    margin-left: 20px;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Stil pentru iconițele de servicii */
+  .serviceIcons {
+    display: flex;
+    justify-content: center;
+    margin: 110px 0 30px 0;
+  }
+  
+  .serviceIcons .icon {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #333;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .serviceIcons .icon img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .serviceIcons .icon:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  .searchBar input[type="text"],
+  .searchBar input[type="date"],
+  .searchBar input[type="time"] {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: black;
+    padding: 8px 0;
+    background: transparent;
+    flex: 1;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  .searchBar input[type="text"]::placeholder,
+  .searchBar input[type="date"]::placeholder,
+  .searchBar input[type="time"]::placeholder {
+    color: #cbcbcb;
+  }
+  
+  .searchBar .separator {
+    width: 1px;
+    height: 24px;
+    background-color: #ddd;
+    margin: 0 8px;
+  }
+  
+  .searchBar button {
+    background-color: #a5f576;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 8px;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  .searchBar button:hover {
+    background-color: #8ce155;
+  }
+  
+  .searchBar input[type="date"],
+  .searchBar input[type="time"] {
+    flex-basis: 100px;
+  }
+  
+  .mainHeader {
+    text-align: center;
+    font-size: 44px;
+    color: #333;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 40px auto;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0%;
+  }
+  
+  /* Media query pentru ecrane mici */
+  @media (max-width: 768px) {
+    .serviceIcons {
+      flex-wrap: wrap;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .navbarRight {
+      margin-top: 10px;
+    }
+  
+    .searchBar {
+      flex-direction: column;
+    }
+  
+    .searchBar input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .mainHeader {
+      font-size: 1.5rem;
+      height: auto;
+      color: #2b2b2b;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 800;
+      line-height: 1.5rem;
+    }
+  }

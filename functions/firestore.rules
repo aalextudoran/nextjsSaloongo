@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /salons/{salon} {
+      allow read: if true; // Allow read access to all users
+      allow write: if false; // Restrict write access (optional)
+    }
+  }
+}
