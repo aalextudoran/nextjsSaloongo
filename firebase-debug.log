@@ -1,113 +1,108 @@
-[debug] [2025-03-08T12:42:36.273Z] ----------------------------------------------------------------------
-[debug] [2025-03-08T12:42:36.275Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Alex\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
-[debug] [2025-03-08T12:42:36.275Z] CLI Version:   13.32.0
-[debug] [2025-03-08T12:42:36.275Z] Platform:      win32
-[debug] [2025-03-08T12:42:36.275Z] Node Version:  v20.15.0
-[debug] [2025-03-08T12:42:36.275Z] Time:          Sat Mar 08 2025 14:42:36 GMT+0200 (Eastern European Standard Time)
-[debug] [2025-03-08T12:42:36.275Z] ----------------------------------------------------------------------
+[debug] [2025-03-11T12:29:39.384Z] ----------------------------------------------------------------------
+[debug] [2025-03-11T12:29:39.386Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Alex\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-03-11T12:29:39.386Z] CLI Version:   13.32.0
+[debug] [2025-03-11T12:29:39.386Z] Platform:      win32
+[debug] [2025-03-11T12:29:39.386Z] Node Version:  v20.15.0
+[debug] [2025-03-11T12:29:39.386Z] Time:          Tue Mar 11 2025 14:29:39 GMT+0200 (Eastern European Standard Time)
+[debug] [2025-03-11T12:29:39.386Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-03-08T12:42:36.437Z] Object "/emulators/storage" in "firebase.json" has unknown property: {"additionalProperty":"rules"}
-[debug] [2025-03-08T12:42:36.442Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-03-08T12:42:36.442Z] > authorizing via signed-in user (alex.tudoran99@gmail.com)
-[debug] [2025-03-08T12:42:36.550Z] java version "17" 2021-09-14 LTS
+[debug] [2025-03-11T12:29:39.542Z] Object "/emulators/storage" in "firebase.json" has unknown property: {"additionalProperty":"rules"}
+[debug] [2025-03-11T12:29:39.545Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-11T12:29:39.546Z] > authorizing via signed-in user (alex.tudoran99@gmail.com)
+[debug] [2025-03-11T12:29:39.610Z] java version "17" 2021-09-14 LTS
 
-[debug] [2025-03-08T12:42:36.550Z] Java(TM) SE Runtime Environment (build 17+35-LTS-2724)
+[debug] [2025-03-11T12:29:39.610Z] Java(TM) SE Runtime Environment (build 17+35-LTS-2724)
 Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 
-[debug] [2025-03-08T12:42:36.568Z] Parsed Java major version: 17
+[debug] [2025-03-11T12:29:39.625Z] Parsed Java major version: 17
 [info] i  emulators: Starting emulators: auth, functions, firestore, storage, dataconnect, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, storage, dataconnect, extensions"}}
-[debug] [2025-03-08T12:42:36.570Z] Checked if tokens are valid: false, expires at: 1741428579147
-[debug] [2025-03-08T12:42:36.571Z] Checked if tokens are valid: false, expires at: 1741428579147
-[debug] [2025-03-08T12:42:36.571Z] > refreshing access token with scopes: []
-[debug] [2025-03-08T12:42:36.572Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
-[debug] [2025-03-08T12:42:36.572Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2025-03-08T12:42:36.720Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
-[debug] [2025-03-08T12:42:36.720Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2025-03-08T12:42:36.725Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/saloongo-ecd0e [none]
-[debug] [2025-03-08T12:42:37.572Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/saloongo-ecd0e 200
-[debug] [2025-03-08T12:42:37.572Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/saloongo-ecd0e {"projectNumber":"424763380518","projectId":"saloongo-ecd0e","lifecycleState":"ACTIVE","name":"Saloongo","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-03-06T13:59:58.637122Z"}
-[debug] [2025-03-08T12:42:37.585Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-03-08T12:42:37.585Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-03-08T12:42:37.585Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-03-08T12:42:37.585Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-03-08T12:42:37.585Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:29:39.627Z] Checked if tokens are valid: true, expires at: 1741699564107
+[debug] [2025-03-11T12:29:39.627Z] Checked if tokens are valid: true, expires at: 1741699564107
+[debug] [2025-03-11T12:29:39.628Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/saloongo-ecd0e [none]
+[debug] [2025-03-11T12:29:40.494Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/saloongo-ecd0e 200
+[debug] [2025-03-11T12:29:40.494Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/saloongo-ecd0e {"projectNumber":"424763380518","projectId":"saloongo-ecd0e","lifecycleState":"ACTIVE","name":"Saloongo","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-03-06T13:59:58.637122Z"}
+[debug] [2025-03-11T12:29:40.505Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:29:40.505Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:29:40.505Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:29:40.505Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:29:40.506Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
 [warn] !  dataconnect: postgres server for dataconnect unable to start on port 5432, starting on 5433 instead. {"metadata":{"emulator":{"name":"dataconnect"},"message":"postgres server for dataconnect unable to start on port 5432, starting on 5433 instead."}}
-[debug] [2025-03-08T12:42:37.586Z] [dataconnect.postgres] postgres server for dataconnect only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-03-08T12:42:37.586Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399},{"address":"::1","family":"IPv6","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5433}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2025-03-08T12:42:37.590Z] [hub] writing locator at C:\Users\Alex\AppData\Local\Temp\hub-saloongo-ecd0e.json
-[debug] [2025-03-08T12:42:37.595Z] [Extensions] Started Extensions emulator, this is a noop.
-[debug] [2025-03-08T12:42:37.598Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-03-08T12:42:37.598Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-03-08T12:42:37.598Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-03-08T12:42:37.598Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399},{"address":"::1","family":"IPv6","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5433}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[debug] [2025-03-11T12:29:40.507Z] [dataconnect.postgres] postgres server for dataconnect only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:29:40.507Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399},{"address":"::1","family":"IPv6","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5433}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-03-11T12:29:40.511Z] [hub] writing locator at C:\Users\Alex\AppData\Local\Temp\hub-saloongo-ecd0e.json
+[debug] [2025-03-11T12:29:40.516Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-03-11T12:29:40.519Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:29:40.519Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:29:40.519Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:29:40.519Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399},{"address":"::1","family":"IPv6","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5433}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
 [warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, database, hosting, pubsub\u001b[22m"}}
-[debug] [2025-03-08T12:42:37.603Z] defaultcredentials: writing to file C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json
-[debug] [2025-03-08T12:42:37.605Z] Setting GAC to C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Alex\\AppData\\Roaming\\firebase\\alex_tudoran99_gmail.com_application_default_credentials.json"}}
-[debug] [2025-03-08T12:42:37.605Z] Checked if tokens are valid: true, expires at: 1741441355720
-[debug] [2025-03-08T12:42:37.605Z] Checked if tokens are valid: true, expires at: 1741441355720
-[debug] [2025-03-08T12:42:37.605Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig [none]
-[debug] [2025-03-08T12:42:38.237Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig 200
-[debug] [2025-03-08T12:42:38.238Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig {"projectId":"saloongo-ecd0e","storageBucket":"saloongo-ecd0e.firebasestorage.app"}
-[debug] [2025-03-08T12:42:38.252Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2025-03-08T12:42:38.252Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
-[debug] [2025-03-08T12:42:38.252Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\Alex\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","saloongo-ecd0e","--rules","C:\\Users\\Alex\\saloongo-app\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8080} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Alex\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"saloongo-ecd0e\",\"--rules\",\"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8080}"}}
+[debug] [2025-03-11T12:29:40.522Z] defaultcredentials: writing to file C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json
+[debug] [2025-03-11T12:29:40.524Z] Setting GAC to C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Alex\\AppData\\Roaming\\firebase\\alex_tudoran99_gmail.com_application_default_credentials.json"}}
+[debug] [2025-03-11T12:29:40.525Z] Checked if tokens are valid: true, expires at: 1741699564107
+[debug] [2025-03-11T12:29:40.525Z] Checked if tokens are valid: true, expires at: 1741699564107
+[debug] [2025-03-11T12:29:40.525Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig [none]
+[debug] [2025-03-11T12:29:41.403Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig 200
+[debug] [2025-03-11T12:29:41.403Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig {"projectId":"saloongo-ecd0e","storageBucket":"saloongo-ecd0e.firebasestorage.app"}
+[debug] [2025-03-11T12:29:41.415Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-03-11T12:29:41.416Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2025-03-11T12:29:41.416Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\Alex\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","saloongo-ecd0e","--rules","C:\\Users\\Alex\\saloongo-app\\firestore.rules, storage.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8080} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Alex\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"saloongo-ecd0e\",\"--rules\",\"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\firestore.rules, storage.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8080}"}}
 [info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
 [info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
-[debug] [2025-03-08T12:42:44.214Z] I0308 14:42:44.210842     336 control.go:59] [/emulator/saloongo-app 0b21] UpdateResources(): done
+[debug] [2025-03-11T12:29:46.318Z] I0311 14:29:46.314357   44540 control.go:59] [/emulator/saloongo-app b798] UpdateResources(): done
 Schema: sources: schema\schema.gql [2088B] 
-Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:44.210842     336 control.go:59] [/emulator/saloongo-app 0b21] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
-[debug] [2025-03-08T12:42:44.214Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2025-03-08T12:42:44.214Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2025-03-08T12:42:44.214Z] Starting Data Connect Emulator with command {"binary":"C:\\Users\\Alex\\.cache\\firebase\\emulators\\dataconnect-emulator-1.8.3.exe","args":["--logtostderr","-v=2","dev","--listen=127.0.0.1:9399,[::1]:9399","--config_dir=C:\\Users\\Alex\\saloongo-app\\dataconnect","--enable_output_schema_extensions=true","--enable_output_generated_sdk=true"],"optionalArgs":["listen","config_dir","enable_output_schema_extensions","enable_output_generated_sdk"],"joinArgs":true,"shell":false,"port":9399} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Starting Data Connect Emulator with command {\"binary\":\"C:\\\\Users\\\\Alex\\\\.cache\\\\firebase\\\\emulators\\\\dataconnect-emulator-1.8.3.exe\",\"args\":[\"--logtostderr\",\"-v=2\",\"dev\",\"--listen=127.0.0.1:9399,[::1]:9399\",\"--config_dir=C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect\",\"--enable_output_schema_extensions=true\",\"--enable_output_generated_sdk=true\"],\"optionalArgs\":[\"listen\",\"config_dir\",\"enable_output_schema_extensions\",\"enable_output_generated_sdk\"],\"joinArgs\":true,\"shell\":false,\"port\":9399}"}}
+Connector "default": sources: connector\queries.gql [1802B] connector\mutations.gql [1233B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:46.314357   44540 control.go:59] [/emulator/saloongo-app b798] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\queries.gql [1802B] connector\\mutations.gql [1233B] \n"}}
+[debug] [2025-03-11T12:29:46.318Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-03-11T12:29:46.322Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-03-11T12:29:46.322Z] Starting Data Connect Emulator with command {"binary":"C:\\Users\\Alex\\.cache\\firebase\\emulators\\dataconnect-emulator-1.8.3.exe","args":["--logtostderr","-v=2","dev","--listen=127.0.0.1:9399,[::1]:9399","--config_dir=C:\\Users\\Alex\\saloongo-app\\dataconnect","--enable_output_schema_extensions=true","--enable_output_generated_sdk=true"],"optionalArgs":["listen","config_dir","enable_output_schema_extensions","enable_output_generated_sdk"],"joinArgs":true,"shell":false,"port":9399} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Starting Data Connect Emulator with command {\"binary\":\"C:\\\\Users\\\\Alex\\\\.cache\\\\firebase\\\\emulators\\\\dataconnect-emulator-1.8.3.exe\",\"args\":[\"--logtostderr\",\"-v=2\",\"dev\",\"--listen=127.0.0.1:9399,[::1]:9399\",\"--config_dir=C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect\",\"--enable_output_schema_extensions=true\",\"--enable_output_generated_sdk=true\"],\"optionalArgs\":[\"listen\",\"config_dir\",\"enable_output_schema_extensions\",\"enable_output_generated_sdk\"],\"joinArgs\":true,\"shell\":false,\"port\":9399}"}}
 [info] i  dataconnect: Data Connect Emulator logging to dataconnect-debug.log {"metadata":{"emulator":{"name":"dataconnect"},"message":"Data Connect Emulator logging to \u001b[1mdataconnect-debug.log\u001b[22m"}}
 [info] i  dataconnect: Started up Postgres server, listening on {"address":"127.0.0.1","family":"IPv4","port":5433} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Started up Postgres server, listening on {\"address\":\"127.0.0.1\",\"family\":\"IPv4\",\"port\":5433}"}}
-[debug] [2025-03-08T12:42:44.233Z] [Data Connect] Connecting to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}...
-[debug] [2025-03-08T12:42:44.234Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
-[debug] [2025-03-08T12:42:44.234Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5433/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"saloongo-app","maxOpenConnections":1}
-[debug] [2025-03-08T12:42:44.237Z] *** [apiv2] error from fetch(http://127.0.0.1:9399/emulator/configure, {"headers":{},"method":"POST","body":"{\"connectionString\":\"postgres://127.0.0.1:5433/fdcdb?sslmode=disable\",\"database\":\"fdcdb\",\"serviceId\":\"saloongo-app\",\"maxOpenConnections\":1}"}): FetchError: request to http://127.0.0.1:9399/emulator/configure failed, reason: connect ECONNREFUSED 127.0.0.1:9399
-[debug] [2025-03-08T12:42:44.237Z] [Data Connect] Retrying connectToPostgress call (1 of 3 attempts): FirebaseError: Data Connect emulator: undefined
-[debug] [2025-03-08T12:42:44.242Z] I0308 14:42:44.241176   20664 load.go:37] Reloading schema and connectors...
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:44.241176   20664 load.go:37] Reloading schema and connectors...\n"}}
-[debug] [2025-03-08T12:42:44.257Z] I0308 14:42:44.257073   20664 control.go:59] [/emulator/saloongo-app 8942] UpdateResources(): done
+[debug] [2025-03-11T12:29:46.340Z] [Data Connect] Connecting to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}...
+[debug] [2025-03-11T12:29:46.340Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-03-11T12:29:46.340Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5433/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"saloongo-app","maxOpenConnections":1}
+[debug] [2025-03-11T12:29:46.342Z] *** [apiv2] error from fetch(http://127.0.0.1:9399/emulator/configure, {"headers":{},"method":"POST","body":"{\"connectionString\":\"postgres://127.0.0.1:5433/fdcdb?sslmode=disable\",\"database\":\"fdcdb\",\"serviceId\":\"saloongo-app\",\"maxOpenConnections\":1}"}): FetchError: request to http://127.0.0.1:9399/emulator/configure failed, reason: connect ECONNREFUSED 127.0.0.1:9399
+[debug] [2025-03-11T12:29:46.342Z] [Data Connect] Retrying connectToPostgress call (1 of 3 attempts): FirebaseError: Data Connect emulator: undefined
+[debug] [2025-03-11T12:29:46.345Z] I0311 14:29:46.345011   32808 load.go:37] Reloading schema and connectors...
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:46.345011   32808 load.go:37] Reloading schema and connectors...\n"}}
+[debug] [2025-03-11T12:29:46.358Z] I0311 14:29:46.358536   32808 control.go:59] [/emulator/saloongo-app b972] UpdateResources(): done
 Schema: sources: schema\schema.gql [2088B] 
-Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:44.257073   20664 control.go:59] [/emulator/saloongo-app 8942] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
-[debug] [2025-03-08T12:42:44.266Z] I0308 14:42:44.266297   20664 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:44.266297   20664 codegen.go:82] [connector \"default\" javascriptSdk] Generating sources into \"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect-generated\\\\js\\\\default-connector\"\n"}}
-[debug] [2025-03-08T12:42:44.269Z] I0308 14:42:44.269280   20664 collector.go:107] schema extensions wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect\\.dataconnect\\schema"
+Connector "default": sources: connector\queries.gql [1802B] connector\mutations.gql [1233B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:46.358536   32808 control.go:59] [/emulator/saloongo-app b972] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\queries.gql [1802B] connector\\mutations.gql [1233B] \n"}}
+[debug] [2025-03-11T12:29:46.366Z] I0311 14:29:46.365686   32808 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:46.365686   32808 codegen.go:82] [connector \"default\" javascriptSdk] Generating sources into \"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect-generated\\\\js\\\\default-connector\"\n"}}
+[debug] [2025-03-11T12:29:46.369Z] I0311 14:29:46.369686   32808 collector.go:107] schema extensions wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect\\.dataconnect\\schema"
 Generated sources: prelude.gql [65582B] 
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:44.269280   20664 collector.go:107] schema extensions wrote into \"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect\\\\.dataconnect\\\\schema\"\nGenerated sources: prelude.gql [65582B] \n"}}
-[debug] [2025-03-08T12:42:44.271Z] I0308 14:42:44.270714   20664 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
-Generated sources: README.md [2740B] react\index.d.ts [0B] react\esm\package.json [17B] react\esm\index.esm.js [0B] esm\index.esm.js [115B] index.cjs.js [151B] package.json [895B] react\package.json [468B] react\index.cjs.js [0B] index.d.ts [246B] esm\package.json [17B] 
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:44.270714   20664 collector.go:107] connector \"default\" javascriptSdk wrote into \"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect-generated\\\\js\\\\default-connector\"\nGenerated sources: README.md [2740B] react\\index.d.ts [0B] react\\esm\\package.json [17B] react\\esm\\index.esm.js [0B] esm\\index.esm.js [115B] index.cjs.js [151B] package.json [895B] react\\package.json [468B] react\\index.cjs.js [0B] index.d.ts [246B] esm\\package.json [17B] \n"}}
-[debug] [2025-03-08T12:42:44.294Z] I0308 14:42:44.293322   20664 installsdk.go:76] Running command: C:\Program Files\nodejs\npm.cmd install file:dataconnect-generated\js\default-connector
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:44.293322   20664 installsdk.go:76] Running command: C:\\Program Files\\nodejs\\npm.cmd install file:dataconnect-generated\\js\\default-connector\n"}}
-[debug] [2025-03-08T12:42:45.828Z] I0308 14:42:45.828705   20664 load.go:115] Finished reloading
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:45.828705   20664 load.go:115] Finished reloading\n"}}
-[debug] [2025-03-08T12:42:45.829Z] I0308 14:42:45.829248   20664 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:45.829248   20664 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399\n"}}
-[debug] [2025-03-08T12:42:45.830Z] I0308 14:42:45.829780   20664 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:45.829780   20664 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399\n"}}
-[debug] [2025-03-08T12:42:46.241Z] [Data Connect] Connecting to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}...
-[debug] [2025-03-08T12:42:46.241Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
-[debug] [2025-03-08T12:42:46.241Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5433/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"saloongo-app","maxOpenConnections":1}
-[debug] [2025-03-08T12:42:46.250Z] Frontend message 
-[debug] [2025-03-08T12:42:46.251Z] Backend message AuthenticationResponse
-[debug] [2025-03-08T12:42:46.252Z] Backend message ParameterStatus
-[debug] [2025-03-08T12:42:46.252Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.253Z] Frontend message Query
-[debug] [2025-03-08T12:42:46.634Z] Q   ; 
-[debug] [2025-03-08T12:42:46.635Z] Backend message EmptyQuery
-[debug] [2025-03-08T12:42:46.636Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.640Z] Frontend message Query
-[debug] [2025-03-08T12:42:46.658Z] Q   lSELECT setting FROM pg_settings WHERE name IN ('server_version_num', 'crdb_version') ORDER BY name DESC 
-[debug] [2025-03-08T12:42:46.658Z] Backend message RowDescriptionMessage
-[debug] [2025-03-08T12:42:46.658Z] Backend message DataRow
-[debug] [2025-03-08T12:42:46.658Z] Backend message CommandComplete
-[debug] [2025-03-08T12:42:46.658Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.659Z] Frontend message Parse
-[debug] [2025-03-08T12:42:46.661Z] P   � 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:46.369686   32808 collector.go:107] schema extensions wrote into \"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect\\\\.dataconnect\\\\schema\"\nGenerated sources: prelude.gql [65582B] \n"}}
+[debug] [2025-03-11T12:29:46.371Z] I0311 14:29:46.370686   32808 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
+Generated sources: esm\package.json [17B] react\package.json [468B] react\esm\package.json [17B] react\index.d.ts [0B] react\index.cjs.js [0B] react\esm\index.esm.js [0B] index.d.ts [246B] esm\index.esm.js [115B] index.cjs.js [151B] package.json [895B] README.md [2740B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:46.370686   32808 collector.go:107] connector \"default\" javascriptSdk wrote into \"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect-generated\\\\js\\\\default-connector\"\nGenerated sources: esm\\package.json [17B] react\\package.json [468B] react\\esm\\package.json [17B] react\\index.d.ts [0B] react\\index.cjs.js [0B] react\\esm\\index.esm.js [0B] index.d.ts [246B] esm\\index.esm.js [115B] index.cjs.js [151B] package.json [895B] README.md [2740B] \n"}}
+[debug] [2025-03-11T12:29:46.383Z] I0311 14:29:46.382697   32808 installsdk.go:76] Running command: C:\Program Files\nodejs\npm.cmd install file:dataconnect-generated\js\default-connector
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:46.382697   32808 installsdk.go:76] Running command: C:\\Program Files\\nodejs\\npm.cmd install file:dataconnect-generated\\js\\default-connector\n"}}
+[debug] [2025-03-11T12:29:47.453Z] I0311 14:29:47.453503   32808 load.go:115] Finished reloading
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:47.453503   32808 load.go:115] Finished reloading\n"}}
+[debug] [2025-03-11T12:29:47.454Z] I0311 14:29:47.454097   32808 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:47.454097   32808 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399\n"}}
+[debug] [2025-03-11T12:29:47.454Z] I0311 14:29:47.454097   32808 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:47.454097   32808 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399\n"}}
+[debug] [2025-03-11T12:29:48.347Z] [Data Connect] Connecting to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}...
+[debug] [2025-03-11T12:29:48.348Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-03-11T12:29:48.348Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5433/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"saloongo-app","maxOpenConnections":1}
+[debug] [2025-03-11T12:29:48.359Z] Frontend message 
+[debug] [2025-03-11T12:29:48.361Z] Backend message AuthenticationResponse
+[debug] [2025-03-11T12:29:48.362Z] Backend message ParameterStatus
+[debug] [2025-03-11T12:29:48.362Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.363Z] Frontend message Query
+[debug] [2025-03-11T12:29:48.691Z] Q   ; 
+[debug] [2025-03-11T12:29:48.691Z] Backend message EmptyQuery
+[debug] [2025-03-11T12:29:48.692Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.699Z] Frontend message Query
+[debug] [2025-03-11T12:29:48.715Z] Q   lSELECT setting FROM pg_settings WHERE name IN ('server_version_num', 'crdb_version') ORDER BY name DESC 
+[debug] [2025-03-11T12:29:48.715Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:29:48.715Z] Backend message DataRow
+[debug] [2025-03-11T12:29:48.715Z] Backend message CommandComplete
+[debug] [2025-03-11T12:29:48.716Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.716Z] Frontend message Parse
+[debug] [2025-03-11T12:29:48.718Z] P   � 
 SELECT
 	nspname AS schema_name,
 	pg_catalog.obj_description(oid) AS comment
@@ -117,30 +112,30 @@ WHERE
     nspname = $1
 ORDER BY
     nspname   
-[debug] [2025-03-08T12:42:46.661Z] Backend message ParseComplete
-[debug] [2025-03-08T12:42:46.661Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.661Z] Frontend message Describe
-[debug] [2025-03-08T12:42:46.662Z] D   S 
-[debug] [2025-03-08T12:42:46.662Z] Backend message ParameterDescriptionMessage
-[debug] [2025-03-08T12:42:46.662Z] Backend message RowDescriptionMessage
-[debug] [2025-03-08T12:42:46.663Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.663Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.663Z] S   
-[debug] [2025-03-08T12:42:46.663Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.664Z] Frontend message Bind
-[debug] [2025-03-08T12:42:46.665Z] B           public  
-[debug] [2025-03-08T12:42:46.665Z] Backend message BindComplete
-[debug] [2025-03-08T12:42:46.665Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.665Z] Frontend message Execute
-[debug] [2025-03-08T12:42:46.669Z] E   	     
-[debug] [2025-03-08T12:42:46.669Z] Backend message DataRow
-[debug] [2025-03-08T12:42:46.669Z] Backend message CommandComplete
-[debug] [2025-03-08T12:42:46.669Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.669Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.670Z] S   
-[debug] [2025-03-08T12:42:46.670Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.670Z] Frontend message Parse
-[debug] [2025-03-08T12:42:46.671Z] P  / 
+[debug] [2025-03-11T12:29:48.718Z] Backend message ParseComplete
+[debug] [2025-03-11T12:29:48.719Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.719Z] Frontend message Describe
+[debug] [2025-03-11T12:29:48.720Z] D   S 
+[debug] [2025-03-11T12:29:48.720Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:29:48.721Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:29:48.721Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.721Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.722Z] S   
+[debug] [2025-03-11T12:29:48.722Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.723Z] Frontend message Bind
+[debug] [2025-03-11T12:29:48.726Z] B           public  
+[debug] [2025-03-11T12:29:48.726Z] Backend message BindComplete
+[debug] [2025-03-11T12:29:48.726Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.726Z] Frontend message Execute
+[debug] [2025-03-11T12:29:48.731Z] E   	     
+[debug] [2025-03-11T12:29:48.731Z] Backend message DataRow
+[debug] [2025-03-11T12:29:48.731Z] Backend message CommandComplete
+[debug] [2025-03-11T12:29:48.732Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.732Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.732Z] S   
+[debug] [2025-03-11T12:29:48.732Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.733Z] Frontend message Parse
+[debug] [2025-03-11T12:29:48.734Z] P  / 
 SELECT
 	n.nspname AS schema_name,
 	e.enumtypid AS enum_id,
@@ -155,29 +150,29 @@ WHERE
 ORDER BY
     n.nspname, e.enumtypid, e.enumsortorder
    
-[debug] [2025-03-08T12:42:46.671Z] Backend message ParseComplete
-[debug] [2025-03-08T12:42:46.672Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.672Z] Frontend message Describe
-[debug] [2025-03-08T12:42:46.672Z] D   S 
-[debug] [2025-03-08T12:42:46.672Z] Backend message ParameterDescriptionMessage
-[debug] [2025-03-08T12:42:46.672Z] Backend message RowDescriptionMessage
-[debug] [2025-03-08T12:42:46.673Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.673Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.673Z] S   
-[debug] [2025-03-08T12:42:46.673Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.673Z] Frontend message Bind
-[debug] [2025-03-08T12:42:46.676Z] B           public  
-[debug] [2025-03-08T12:42:46.677Z] Backend message BindComplete
-[debug] [2025-03-08T12:42:46.677Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.677Z] Frontend message Execute
-[debug] [2025-03-08T12:42:46.678Z] E   	     
-[debug] [2025-03-08T12:42:46.678Z] Backend message CommandComplete
-[debug] [2025-03-08T12:42:46.678Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.678Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.679Z] S   
-[debug] [2025-03-08T12:42:46.679Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.679Z] Frontend message Parse
-[debug] [2025-03-08T12:42:46.682Z] P  0 
+[debug] [2025-03-11T12:29:48.734Z] Backend message ParseComplete
+[debug] [2025-03-11T12:29:48.734Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.734Z] Frontend message Describe
+[debug] [2025-03-11T12:29:48.734Z] D   S 
+[debug] [2025-03-11T12:29:48.735Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:29:48.735Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:29:48.735Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.735Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.736Z] S   
+[debug] [2025-03-11T12:29:48.736Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.736Z] Frontend message Bind
+[debug] [2025-03-11T12:29:48.739Z] B           public  
+[debug] [2025-03-11T12:29:48.739Z] Backend message BindComplete
+[debug] [2025-03-11T12:29:48.739Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.739Z] Frontend message Execute
+[debug] [2025-03-11T12:29:48.740Z] E   	     
+[debug] [2025-03-11T12:29:48.740Z] Backend message CommandComplete
+[debug] [2025-03-11T12:29:48.740Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.741Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.741Z] S   
+[debug] [2025-03-11T12:29:48.742Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.742Z] Frontend message Parse
+[debug] [2025-03-11T12:29:48.746Z] P  0 
 SELECT
 	t3.oid,
 	t1.table_schema,
@@ -200,35 +195,35 @@ WHERE
 ORDER BY
 	t1.table_schema, t1.table_name
    
-[debug] [2025-03-08T12:42:46.683Z] Backend message ParseComplete
-[debug] [2025-03-08T12:42:46.683Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.683Z] Frontend message Describe
-[debug] [2025-03-08T12:42:46.684Z] D   S 
-[debug] [2025-03-08T12:42:46.684Z] Backend message ParameterDescriptionMessage
-[debug] [2025-03-08T12:42:46.684Z] Backend message RowDescriptionMessage
-[debug] [2025-03-08T12:42:46.684Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.684Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.685Z] S   
-[debug] [2025-03-08T12:42:46.685Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.685Z] Frontend message Bind
-[debug] [2025-03-08T12:42:46.692Z] B           public  
-[debug] [2025-03-08T12:42:46.692Z] Backend message BindComplete
-[debug] [2025-03-08T12:42:46.692Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.692Z] Frontend message Execute
-[debug] [2025-03-08T12:42:46.694Z] E   	     
-[debug] [2025-03-08T12:42:46.694Z] Backend message CommandComplete
-[debug] [2025-03-08T12:42:46.694Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.694Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.696Z] S   
-[debug] [2025-03-08T12:42:46.696Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.697Z] Frontend message Query
-[debug] [2025-03-08T12:42:46.700Z] Q   %SELECT extname FROM pg_extension 
-[debug] [2025-03-08T12:42:46.701Z] Backend message RowDescriptionMessage
-[debug] [2025-03-08T12:42:46.701Z] Backend message DataRow
-[debug] [2025-03-08T12:42:46.701Z] Backend message CommandComplete
-[debug] [2025-03-08T12:42:46.701Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.701Z] Frontend message Parse
-[debug] [2025-03-08T12:42:46.702Z] P   � 
+[debug] [2025-03-11T12:29:48.746Z] Backend message ParseComplete
+[debug] [2025-03-11T12:29:48.746Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.746Z] Frontend message Describe
+[debug] [2025-03-11T12:29:48.747Z] D   S 
+[debug] [2025-03-11T12:29:48.747Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:29:48.747Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:29:48.747Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.747Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.748Z] S   
+[debug] [2025-03-11T12:29:48.748Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.748Z] Frontend message Bind
+[debug] [2025-03-11T12:29:48.757Z] B           public  
+[debug] [2025-03-11T12:29:48.757Z] Backend message BindComplete
+[debug] [2025-03-11T12:29:48.757Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.757Z] Frontend message Execute
+[debug] [2025-03-11T12:29:48.759Z] E   	     
+[debug] [2025-03-11T12:29:48.759Z] Backend message CommandComplete
+[debug] [2025-03-11T12:29:48.759Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.759Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.760Z] S   
+[debug] [2025-03-11T12:29:48.761Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.761Z] Frontend message Query
+[debug] [2025-03-11T12:29:48.763Z] Q   %SELECT extname FROM pg_extension 
+[debug] [2025-03-11T12:29:48.764Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:29:48.764Z] Backend message DataRow
+[debug] [2025-03-11T12:29:48.764Z] Backend message CommandComplete
+[debug] [2025-03-11T12:29:48.764Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.764Z] Frontend message Parse
+[debug] [2025-03-11T12:29:48.765Z] P   � 
 SELECT
 	nspname AS schema_name,
 	pg_catalog.obj_description(oid) AS comment
@@ -238,30 +233,30 @@ WHERE
     nspname = $1
 ORDER BY
     nspname   
-[debug] [2025-03-08T12:42:46.702Z] Backend message ParseComplete
-[debug] [2025-03-08T12:42:46.702Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.702Z] Frontend message Describe
-[debug] [2025-03-08T12:42:46.703Z] D   S 
-[debug] [2025-03-08T12:42:46.703Z] Backend message ParameterDescriptionMessage
-[debug] [2025-03-08T12:42:46.703Z] Backend message RowDescriptionMessage
-[debug] [2025-03-08T12:42:46.703Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.703Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.703Z] S   
-[debug] [2025-03-08T12:42:46.704Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.704Z] Frontend message Bind
-[debug] [2025-03-08T12:42:46.705Z] B           public  
-[debug] [2025-03-08T12:42:46.705Z] Backend message BindComplete
-[debug] [2025-03-08T12:42:46.706Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.706Z] Frontend message Execute
-[debug] [2025-03-08T12:42:46.707Z] E   	     
-[debug] [2025-03-08T12:42:46.707Z] Backend message DataRow
-[debug] [2025-03-08T12:42:46.707Z] Backend message CommandComplete
-[debug] [2025-03-08T12:42:46.707Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.707Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.707Z] S   
-[debug] [2025-03-08T12:42:46.707Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.708Z] Frontend message Parse
-[debug] [2025-03-08T12:42:46.708Z] P  / 
+[debug] [2025-03-11T12:29:48.765Z] Backend message ParseComplete
+[debug] [2025-03-11T12:29:48.765Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.765Z] Frontend message Describe
+[debug] [2025-03-11T12:29:48.765Z] D   S 
+[debug] [2025-03-11T12:29:48.766Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:29:48.766Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:29:48.766Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.766Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.766Z] S   
+[debug] [2025-03-11T12:29:48.766Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.767Z] Frontend message Bind
+[debug] [2025-03-11T12:29:48.767Z] B           public  
+[debug] [2025-03-11T12:29:48.767Z] Backend message BindComplete
+[debug] [2025-03-11T12:29:48.768Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.768Z] Frontend message Execute
+[debug] [2025-03-11T12:29:48.768Z] E   	     
+[debug] [2025-03-11T12:29:48.768Z] Backend message DataRow
+[debug] [2025-03-11T12:29:48.768Z] Backend message CommandComplete
+[debug] [2025-03-11T12:29:48.769Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.769Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.769Z] S   
+[debug] [2025-03-11T12:29:48.769Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.769Z] Frontend message Parse
+[debug] [2025-03-11T12:29:48.770Z] P  / 
 SELECT
 	n.nspname AS schema_name,
 	e.enumtypid AS enum_id,
@@ -276,29 +271,29 @@ WHERE
 ORDER BY
     n.nspname, e.enumtypid, e.enumsortorder
    
-[debug] [2025-03-08T12:42:46.708Z] Backend message ParseComplete
-[debug] [2025-03-08T12:42:46.708Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.708Z] Frontend message Describe
-[debug] [2025-03-08T12:42:46.709Z] D   S 
-[debug] [2025-03-08T12:42:46.709Z] Backend message ParameterDescriptionMessage
-[debug] [2025-03-08T12:42:46.709Z] Backend message RowDescriptionMessage
-[debug] [2025-03-08T12:42:46.709Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.709Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.709Z] S   
-[debug] [2025-03-08T12:42:46.710Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.710Z] Frontend message Bind
-[debug] [2025-03-08T12:42:46.711Z] B           public  
-[debug] [2025-03-08T12:42:46.711Z] Backend message BindComplete
-[debug] [2025-03-08T12:42:46.712Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.712Z] Frontend message Execute
-[debug] [2025-03-08T12:42:46.712Z] E   	     
-[debug] [2025-03-08T12:42:46.712Z] Backend message CommandComplete
-[debug] [2025-03-08T12:42:46.713Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.713Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.714Z] S   
-[debug] [2025-03-08T12:42:46.714Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.714Z] Frontend message Parse
-[debug] [2025-03-08T12:42:46.716Z] P  0 
+[debug] [2025-03-11T12:29:48.770Z] Backend message ParseComplete
+[debug] [2025-03-11T12:29:48.770Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.770Z] Frontend message Describe
+[debug] [2025-03-11T12:29:48.771Z] D   S 
+[debug] [2025-03-11T12:29:48.771Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:29:48.771Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:29:48.771Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.771Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.771Z] S   
+[debug] [2025-03-11T12:29:48.771Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.772Z] Frontend message Bind
+[debug] [2025-03-11T12:29:48.773Z] B           public  
+[debug] [2025-03-11T12:29:48.773Z] Backend message BindComplete
+[debug] [2025-03-11T12:29:48.773Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.773Z] Frontend message Execute
+[debug] [2025-03-11T12:29:48.773Z] E   	     
+[debug] [2025-03-11T12:29:48.773Z] Backend message CommandComplete
+[debug] [2025-03-11T12:29:48.774Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.774Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.774Z] S   
+[debug] [2025-03-11T12:29:48.774Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.774Z] Frontend message Parse
+[debug] [2025-03-11T12:29:48.775Z] P  0 
 SELECT
 	t3.oid,
 	t1.table_schema,
@@ -321,46 +316,46 @@ WHERE
 ORDER BY
 	t1.table_schema, t1.table_name
    
-[debug] [2025-03-08T12:42:46.716Z] Backend message ParseComplete
-[debug] [2025-03-08T12:42:46.716Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.716Z] Frontend message Describe
-[debug] [2025-03-08T12:42:46.717Z] D   S 
-[debug] [2025-03-08T12:42:46.717Z] Backend message ParameterDescriptionMessage
-[debug] [2025-03-08T12:42:46.717Z] Backend message RowDescriptionMessage
-[debug] [2025-03-08T12:42:46.717Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.718Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.719Z] S   
-[debug] [2025-03-08T12:42:46.719Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.720Z] Frontend message Bind
-[debug] [2025-03-08T12:42:46.724Z] B           public  
-[debug] [2025-03-08T12:42:46.725Z] Backend message BindComplete
-[debug] [2025-03-08T12:42:46.725Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.725Z] Frontend message Execute
-[debug] [2025-03-08T12:42:46.726Z] E   	     
-[debug] [2025-03-08T12:42:46.726Z] Backend message CommandComplete
-[debug] [2025-03-08T12:42:46.726Z] Filtered out a ReadyForQuery.
-[debug] [2025-03-08T12:42:46.726Z] Frontend message Sync
-[debug] [2025-03-08T12:42:46.727Z] S   
-[debug] [2025-03-08T12:42:46.727Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.727Z] Frontend message Query
-[debug] [2025-03-08T12:42:46.728Z] Q   %SELECT extname FROM pg_extension 
-[debug] [2025-03-08T12:42:46.728Z] Backend message RowDescriptionMessage
-[debug] [2025-03-08T12:42:46.728Z] Backend message DataRow
-[debug] [2025-03-08T12:42:46.728Z] Backend message CommandComplete
-[debug] [2025-03-08T12:42:46.728Z] Backend message ReadyForQuery
-[debug] [2025-03-08T12:42:46.737Z] I0308 14:42:46.736823   20664 control.go:59] [/emulator/saloongo-app 7761] UpdateResources(): done
+[debug] [2025-03-11T12:29:48.775Z] Backend message ParseComplete
+[debug] [2025-03-11T12:29:48.775Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.775Z] Frontend message Describe
+[debug] [2025-03-11T12:29:48.776Z] D   S 
+[debug] [2025-03-11T12:29:48.776Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:29:48.776Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:29:48.776Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.776Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.776Z] S   
+[debug] [2025-03-11T12:29:48.776Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.777Z] Frontend message Bind
+[debug] [2025-03-11T12:29:48.779Z] B           public  
+[debug] [2025-03-11T12:29:48.780Z] Backend message BindComplete
+[debug] [2025-03-11T12:29:48.780Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.780Z] Frontend message Execute
+[debug] [2025-03-11T12:29:48.781Z] E   	     
+[debug] [2025-03-11T12:29:48.781Z] Backend message CommandComplete
+[debug] [2025-03-11T12:29:48.781Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:29:48.781Z] Frontend message Sync
+[debug] [2025-03-11T12:29:48.782Z] S   
+[debug] [2025-03-11T12:29:48.782Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.782Z] Frontend message Query
+[debug] [2025-03-11T12:29:48.783Z] Q   %SELECT extname FROM pg_extension 
+[debug] [2025-03-11T12:29:48.783Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:29:48.783Z] Backend message DataRow
+[debug] [2025-03-11T12:29:48.783Z] Backend message CommandComplete
+[debug] [2025-03-11T12:29:48.783Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:29:48.788Z] I0311 14:29:48.788110   32808 control.go:59] [/emulator/saloongo-app fce4] UpdateResources(): done
 Schema: sources: schema\schema.gql [2088B] 
 Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
- {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0308 14:42:46.736823   20664 control.go:59] [/emulator/saloongo-app 7761] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
-[debug] [2025-03-08T12:42:46.738Z] <<< [apiv2][status] POST http://127.0.0.1:9399/emulator/configure 200
-[debug] [2025-03-08T12:42:46.739Z] <<< [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {}
-[debug] [2025-03-08T12:42:46.739Z] [Data Connect] Successfully connected to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}
-[debug] [2025-03-08T12:42:46.742Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2025-03-08T12:42:47.479Z] Temp file directory for storage emulator: C:\Users\Alex\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\Alex\\AppData\\Local\\Temp/firebase/storage/blobs"}}
-[debug] [2025-03-08T12:42:47.487Z] [Extensions] Connecting Extensions emulator, this is a noop.
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:29:48.788110   32808 control.go:59] [/emulator/saloongo-app fce4] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-03-11T12:29:48.789Z] <<< [apiv2][status] POST http://127.0.0.1:9399/emulator/configure 200
+[debug] [2025-03-11T12:29:48.789Z] <<< [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {}
+[debug] [2025-03-11T12:29:48.789Z] [Data Connect] Successfully connected to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}
+[debug] [2025-03-11T12:29:48.792Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-03-11T12:29:49.507Z] Temp file directory for storage emulator: C:\Users\Alex\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\Alex\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2025-03-11T12:29:49.516Z] [Extensions] Connecting Extensions emulator, this is a noop.
 [info] i  functions: Watching "C:\Users\Alex\saloongo-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Alex\\saloongo-app\\functions\" for Cloud Functions..."}}
-[debug] [2025-03-08T12:42:47.492Z] Validating nodejs source
-[debug] [2025-03-08T12:42:48.152Z] > [functions] package.json contents: {
+[debug] [2025-03-11T12:29:49.521Z] Validating nodejs source
+[debug] [2025-03-11T12:29:50.158Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -390,21 +385,21 @@ Connector "default": sources: connector\mutations.gql [1233B] connector\queries.
   },
   "private": true
 }
-[debug] [2025-03-08T12:42:48.152Z] Building nodejs source
-[debug] [2025-03-08T12:42:48.152Z] Failed to find version of module node: reached end of search path C:\Users\Alex\saloongo-app\functions\node_modules
+[debug] [2025-03-11T12:29:50.158Z] Building nodejs source
+[debug] [2025-03-11T12:29:50.159Z] Failed to find version of module node: reached end of search path C:\Users\Alex\saloongo-app\functions\node_modules
 [warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
-[debug] [2025-03-08T12:42:48.155Z] Could not find functions.yaml. Must use http discovery
-[debug] [2025-03-08T12:42:48.161Z] Found firebase-functions binary at 'C:\Users\Alex\saloongo-app\functions\node_modules\.bin\firebase-functions'
-[info] Serving at port 8086
+[debug] [2025-03-11T12:29:50.161Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-03-11T12:29:50.167Z] Found firebase-functions binary at 'C:\Users\Alex\saloongo-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8201
 
-[debug] [2025-03-08T12:42:48.414Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
-[debug] [2025-03-08T12:42:53.433Z] defaultcredentials: writing to file C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json
-[debug] [2025-03-08T12:42:53.433Z] Setting GAC to C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Alex\\AppData\\Roaming\\firebase\\alex_tudoran99_gmail.com_application_default_credentials.json"}}
+[debug] [2025-03-11T12:29:50.535Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-03-11T12:29:55.553Z] defaultcredentials: writing to file C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json
+[debug] [2025-03-11T12:29:55.553Z] Setting GAC to C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Alex\\AppData\\Roaming\\firebase\\alex_tudoran99_gmail.com_application_default_credentials.json"}}
 [info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
-[debug] [2025-03-08T12:42:53.435Z] >>> [apiv2][query] GET http://127.0.0.1:9399/emulator/info [none]
-[debug] [2025-03-08T12:42:53.437Z] <<< [apiv2][status] GET http://127.0.0.1:9399/emulator/info 200
-[debug] [2025-03-08T12:42:53.437Z] <<< [apiv2][body] GET http://127.0.0.1:9399/emulator/info {"version":"","services":[{"serviceId":"saloongo-app","connectionString":"dbname='fdcdb' host='127.0.0.1' port='5433' sslmode='disable' dbname='fdcdb'"}]}
-[debug] [2025-03-08T12:42:53.440Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[debug] [2025-03-11T12:29:55.555Z] >>> [apiv2][query] GET http://127.0.0.1:9399/emulator/info [none]
+[debug] [2025-03-11T12:29:55.558Z] <<< [apiv2][status] GET http://127.0.0.1:9399/emulator/info 200
+[debug] [2025-03-11T12:29:55.558Z] <<< [apiv2][body] GET http://127.0.0.1:9399/emulator/info {"version":"","services":[{"serviceId":"saloongo-app","connectionString":"dbname='fdcdb' host='127.0.0.1' port='5433' sslmode='disable' dbname='fdcdb'"}]}
+[debug] [2025-03-11T12:29:55.560Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
 │ ✔  All emulators ready! It is now safe to connect your app. │
@@ -433,44 +428,405 @@ Connector "default": sources: connector\mutations.gql [1233B] connector\queries.
 └─────────────────────────┴───────────────┴─────────────────────┘
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[debug] [2025-03-08T12:43:48.598Z] Checked if tokens are valid: true, expires at: 1741441355720
-[debug] [2025-03-08T12:43:48.598Z] Checked if tokens are valid: true, expires at: 1741441355720
-[debug] [2025-03-08T12:43:48.598Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig [none]
-[debug] [2025-03-08T12:43:49.217Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig 200
-[debug] [2025-03-08T12:43:49.217Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig {"projectId":"saloongo-ecd0e","storageBucket":"saloongo-ecd0e.firebasestorage.app"}
-[debug] [2025-03-08T12:43:51.983Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
-[debug] [2025-03-08T12:43:51.983Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"1741437831983","timestamp":"2025-03-08T12:43:51.983Z","eventType":"google.storage.object.finalize","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/saloongo-ecd0e.firebasestorage.app/objects/images/","type":"storage#object"},"data":{"kind":"storage#object","name":"images/","bucket":"saloongo-ecd0e.firebasestorage.app","generation":"1741437831981","metageneration":"1","contentType":"application/octet-stream","timeCreated":"2025-03-08T12:43:51.981Z","updated":"2025-03-08T12:43:51.981Z","storageClass":"STANDARD","size":"130","md5Hash":"iUpceipDkyQhwwUflucD5w==","etag":"4YeAo2TAMbf184Qb7e8fw+VKZGI","crc32c":"uUdn5g==","timeStorageClassUpdated":"2025-03-08T12:43:51.981Z","id":"saloongo-ecd0e.firebasestorage.app/images//1741437831981","selfLink":"http://127.0.0.1:9199/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2F","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2F?generation=1741437831981&alt=media"}}
-[debug] [2025-03-08T12:43:51.986Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
-[debug] [2025-03-08T12:43:51.986Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
-[debug] [2025-03-08T12:43:51.986Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
-[debug] [2025-03-08T12:43:51.986Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"specversion":"1.0","id":"112f607e-63a5-48e3-90b4-8e90ff4675c2","type":"google.cloud.storage.object.v1.finalized","source":"//storage.googleapis.com/projects/_/buckets/saloongo-ecd0e.firebasestorage.app/objects/images/","time":"2025-03-08T12:43:51.981Z","data":{"kind":"storage#object","name":"images/","bucket":"saloongo-ecd0e.firebasestorage.app","generation":"1741437831981","metageneration":"1","contentType":"application/octet-stream","timeCreated":"2025-03-08T12:43:51.981Z","updated":"2025-03-08T12:43:51.981Z","storageClass":"STANDARD","size":"130","md5Hash":"iUpceipDkyQhwwUflucD5w==","etag":"4YeAo2TAMbf184Qb7e8fw+VKZGI","crc32c":"uUdn5g==","timeStorageClassUpdated":"2025-03-08T12:43:51.981Z","id":"saloongo-ecd0e.firebasestorage.app/images//1741437831981","selfLink":"http://127.0.0.1:9199/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2F","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2F?generation=1741437831981&alt=media"}}
-[debug] [2025-03-08T12:43:51.988Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
-[debug] [2025-03-08T12:43:51.988Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
-[debug] [2025-03-08T12:43:59.642Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
-[debug] [2025-03-08T12:43:59.642Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"1741437839642","timestamp":"2025-03-08T12:43:59.642Z","eventType":"google.storage.object.finalize","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/saloongo-ecd0e.firebasestorage.app/objects/images/barbershopExample.jpg","type":"storage#object"},"data":{"kind":"storage#object","name":"images/barbershopExample.jpg","bucket":"saloongo-ecd0e.firebasestorage.app","generation":"1741437839639","metageneration":"1","contentType":"image/jpeg","timeCreated":"2025-03-08T12:43:59.639Z","updated":"2025-03-08T12:43:59.639Z","storageClass":"STANDARD","size":"82326","md5Hash":"tMfZhlpyfJrDBeQzYdgekA==","etag":"zMIRDxxv+YmGtjxGar+5l2FTIlA","metadata":{"firebaseStorageDownloadTokens":"ca8b05b3-b4f1-46e5-8ba9-e27e22274992"},"crc32c":"Qdh7Og==","timeStorageClassUpdated":"2025-03-08T12:43:59.639Z","id":"saloongo-ecd0e.firebasestorage.app/images/barbershopExample.jpg/1741437839639","selfLink":"http://127.0.0.1:9199/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2FbarbershopExample.jpg","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2FbarbershopExample.jpg?generation=1741437839639&alt=media"}}
-[debug] [2025-03-08T12:43:59.644Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
-[debug] [2025-03-08T12:43:59.644Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
-[debug] [2025-03-08T12:43:59.645Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
-[debug] [2025-03-08T12:43:59.645Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"specversion":"1.0","id":"de2cfaa6-6cf6-4093-98e6-5da56f630f91","type":"google.cloud.storage.object.v1.finalized","source":"//storage.googleapis.com/projects/_/buckets/saloongo-ecd0e.firebasestorage.app/objects/images/barbershopExample.jpg","time":"2025-03-08T12:43:59.639Z","data":{"kind":"storage#object","name":"images/barbershopExample.jpg","bucket":"saloongo-ecd0e.firebasestorage.app","generation":"1741437839639","metageneration":"1","contentType":"image/jpeg","timeCreated":"2025-03-08T12:43:59.639Z","updated":"2025-03-08T12:43:59.639Z","storageClass":"STANDARD","size":"82326","md5Hash":"tMfZhlpyfJrDBeQzYdgekA==","etag":"zMIRDxxv+YmGtjxGar+5l2FTIlA","metadata":{"firebaseStorageDownloadTokens":"ca8b05b3-b4f1-46e5-8ba9-e27e22274992"},"crc32c":"Qdh7Og==","timeStorageClassUpdated":"2025-03-08T12:43:59.639Z","id":"saloongo-ecd0e.firebasestorage.app/images/barbershopExample.jpg/1741437839639","selfLink":"http://127.0.0.1:9199/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2FbarbershopExample.jpg","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2FbarbershopExample.jpg?generation=1741437839639&alt=media"}}
-[debug] [2025-03-08T12:43:59.647Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
-[debug] [2025-03-08T12:43:59.647Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[warn] !  Unexpected '<EOF>' in C:\Users\Alex\saloongo-app\storage.rules:8 {"metadata":{"emulator":{"name":"storage"},"message":"Unexpected '<EOF>' in C:\\Users\\Alex\\saloongo-app\\storage.rules:8"}}
-[warn] !  missing '}' at '<EOF>' in C:\Users\Alex\saloongo-app\storage.rules:8 {"metadata":{"emulator":{"name":"storage"},"message":"missing '}' at '<EOF>' in C:\\Users\\Alex\\saloongo-app\\storage.rules:8"}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[warn] !  Unexpected '<EOF>' in C:\Users\Alex\saloongo-app\storage.rules:8 {"metadata":{"emulator":{"name":"storage"},"message":"Unexpected '<EOF>' in C:\\Users\\Alex\\saloongo-app\\storage.rules:8"}}
-[warn] !  missing '}' at '<EOF>' in C:\Users\Alex\saloongo-app\storage.rules:8 {"metadata":{"emulator":{"name":"storage"},"message":"missing '}' at '<EOF>' in C:\\Users\\Alex\\saloongo-app\\storage.rules:8"}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[warn] !  Rules content empty. Compilation aborted in C:\Users\Alex\saloongo-app\storage.rules:0 {"metadata":{"emulator":{"name":"storage"},"message":"Rules content empty. Compilation aborted in C:\\Users\\Alex\\saloongo-app\\storage.rules:0"}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[debug] [2025-03-08T12:50:39.635Z] File C:\Users\Alex\saloongo-app\functions\firestore.rules changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Alex\\saloongo-app\\functions\\firestore.rules changed, reloading triggers"}}
-[debug] [2025-03-08T12:50:40.643Z] Validating nodejs source
-[debug] [2025-03-08T12:50:41.405Z] > [functions] package.json contents: {
+[debug] [2025-03-11T12:30:10.069Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
+[debug] [2025-03-11T12:30:10.069Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"d8c7ab0d-9bb6-4d1c-9573-1d0339155895","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/saloongo-ecd0e","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2025-03-11T12:30:10.068Z","data":{"uid":"Hwb0WGDp0XzCz8hvG7xNoSQ1RVCr","email":"test@","emailVerified":true,"displayName":"test","metadata":{"creationTime":"2025-03-11T12:30:10.068Z","lastSignInTime":"2025-03-11T12:30:10.068Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"1198721124993059850497487536521783544765","federatedId":"1198721124993059850497487536521783544765","displayName":"test","email":"test@"}]}}
+[debug] [2025-03-11T12:30:10.076Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
+[debug] [2025-03-11T12:30:10.076Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2025-03-11T12:33:48.652Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
+[debug] [2025-03-11T12:33:48.652Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"9c6b6391-41e9-42a1-970b-d21d20751a23","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/saloongo-ecd0e","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2025-03-11T12:33:48.652Z","data":{"uid":"tHRuOXb4ifdwZb26DgN64YfJ9dMz","email":"test2@","emailVerified":true,"displayName":"test2@","metadata":{"creationTime":"2025-03-11T12:33:48.651Z","lastSignInTime":"2025-03-11T12:33:48.651Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"4824403122268430435752071183507051539892","federatedId":"4824403122268430435752071183507051539892","displayName":"test2@","email":"test2@"}]}}
+[debug] [2025-03-11T12:33:48.655Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
+[debug] [2025-03-11T12:33:48.655Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2025-03-11T12:34:42.966Z] Received signal SIGINT (Ctrl-C) 1
+[info]  
+[info] i  emulators: Received SIGINT (Ctrl-C) for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGINT (Ctrl-C) signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[info] i  extensions: Stopping Extensions Emulator {"metadata":{"emulator":{"name":"extensions"},"message":"Stopping Extensions Emulator"}}
+[debug] [2025-03-11T12:34:42.970Z] [Extensions] Stopping Extensions emulator, this is a noop.
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  firestore: Stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Stopping Firestore Emulator"}}
+[warn] !  Firestore Emulator has exited upon receiving signal: SIGINT 
+[info] i  auth: Stopping Authentication Emulator {"metadata":{"emulator":{"name":"auth"},"message":"Stopping Authentication Emulator"}}
+[info] i  storage: Stopping Storage Emulator {"metadata":{"emulator":{"name":"storage"},"message":"Stopping Storage Emulator"}}
+[debug] [2025-03-11T12:34:42.977Z] Stopping rules runtime. {"metadata":{"emulator":{"name":"storage"},"message":"Stopping rules runtime."}}
+[info] i  eventarc: Stopping Eventarc Emulator {"metadata":{"emulator":{"name":"eventarc"},"message":"Stopping Eventarc Emulator"}}
+[info] i  dataconnect: Stopping Data Connect Emulator {"metadata":{"emulator":{"name":"dataconnect"},"message":"Stopping Data Connect Emulator"}}
+[error] !!  dataconnect: Postgres threw an unexpected error, shutting down the Data Connect emulator: Error: read ECONNRESET {"metadata":{"emulator":{"name":"dataconnect"},"message":"Postgres threw an unexpected error, shutting down the Data Connect emulator: Error: read ECONNRESET"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  dataconnect: Stopping Data Connect Emulator {"metadata":{"emulator":{"name":"dataconnect"},"message":"Stopping Data Connect Emulator"}}
+[warn] !  dataconnect: Error stopping Data Connect Emulator {"metadata":{"emulator":{"name":"dataconnect"},"message":"Error stopping Data Connect Emulator"}}
+[info] i  tasks: Stopping Cloud Tasks Emulator {"metadata":{"emulator":{"name":"tasks"},"message":"Stopping Cloud Tasks Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2025-03-11T12:34:43.001Z] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
+[warn] !  Data Connect Emulator has exited upon receiving signal: SIGINT 
+[info] i  tasks: Stopping Cloud Tasks Emulator {"metadata":{"emulator":{"name":"tasks"},"message":"Stopping Cloud Tasks Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
+[debug] [2025-03-11T12:34:43.008Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[debug] [2025-03-11T12:34:43.008Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[debug] [2025-03-11T12:34:50.998Z] ----------------------------------------------------------------------
+[debug] [2025-03-11T12:34:50.999Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Alex\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-03-11T12:34:51.000Z] CLI Version:   13.32.0
+[debug] [2025-03-11T12:34:51.000Z] Platform:      win32
+[debug] [2025-03-11T12:34:51.000Z] Node Version:  v20.15.0
+[debug] [2025-03-11T12:34:51.000Z] Time:          Tue Mar 11 2025 14:34:51 GMT+0200 (Eastern European Standard Time)
+[debug] [2025-03-11T12:34:51.000Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-11T12:34:51.157Z] Object "/emulators/storage" in "firebase.json" has unknown property: {"additionalProperty":"rules"}
+[debug] [2025-03-11T12:34:51.161Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-11T12:34:51.161Z] > authorizing via signed-in user (alex.tudoran99@gmail.com)
+[debug] [2025-03-11T12:34:51.249Z] java version "17" 2021-09-14 LTS
+
+[debug] [2025-03-11T12:34:51.250Z] Java(TM) SE Runtime Environment (build 17+35-LTS-2724)
+Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
+
+[debug] [2025-03-11T12:34:51.272Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, functions, firestore, storage, dataconnect, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, storage, dataconnect, extensions"}}
+[debug] [2025-03-11T12:34:51.274Z] Checked if tokens are valid: true, expires at: 1741699564107
+[debug] [2025-03-11T12:34:51.274Z] Checked if tokens are valid: true, expires at: 1741699564107
+[debug] [2025-03-11T12:34:51.275Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/saloongo-ecd0e [none]
+[debug] [2025-03-11T12:34:52.160Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/saloongo-ecd0e 200
+[debug] [2025-03-11T12:34:52.160Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/saloongo-ecd0e {"projectNumber":"424763380518","projectId":"saloongo-ecd0e","lifecycleState":"ACTIVE","name":"Saloongo","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-03-06T13:59:58.637122Z"}
+[debug] [2025-03-11T12:34:52.176Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:34:52.176Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:34:52.176Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:34:52.176Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:34:52.176Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  dataconnect: postgres server for dataconnect unable to start on port 5432, starting on 5433 instead. {"metadata":{"emulator":{"name":"dataconnect"},"message":"postgres server for dataconnect unable to start on port 5432, starting on 5433 instead."}}
+[debug] [2025-03-11T12:34:52.177Z] [dataconnect.postgres] postgres server for dataconnect only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:34:52.177Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399},{"address":"::1","family":"IPv6","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5433}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-03-11T12:34:52.181Z] [hub] writing locator at C:\Users\Alex\AppData\Local\Temp\hub-saloongo-ecd0e.json
+[debug] [2025-03-11T12:34:52.186Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-03-11T12:34:52.189Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:34:52.189Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:34:52.189Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-03-11T12:34:52.189Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399},{"address":"::1","family":"IPv6","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5433}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, database, hosting, pubsub\u001b[22m"}}
+[debug] [2025-03-11T12:34:52.192Z] defaultcredentials: writing to file C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json
+[debug] [2025-03-11T12:34:52.195Z] Setting GAC to C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Alex\\AppData\\Roaming\\firebase\\alex_tudoran99_gmail.com_application_default_credentials.json"}}
+[debug] [2025-03-11T12:34:52.195Z] Checked if tokens are valid: true, expires at: 1741699564107
+[debug] [2025-03-11T12:34:52.196Z] Checked if tokens are valid: true, expires at: 1741699564107
+[debug] [2025-03-11T12:34:52.196Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig [none]
+[debug] [2025-03-11T12:34:53.045Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig 200
+[debug] [2025-03-11T12:34:53.045Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/saloongo-ecd0e/adminSdkConfig {"projectId":"saloongo-ecd0e","storageBucket":"saloongo-ecd0e.firebasestorage.app"}
+[debug] [2025-03-11T12:34:53.059Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-03-11T12:34:53.059Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2025-03-11T12:34:53.059Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\Alex\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","saloongo-ecd0e","--rules","C:\\Users\\Alex\\saloongo-app\\firestore.rules, storage.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8080} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Alex\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"saloongo-ecd0e\",\"--rules\",\"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\firestore.rules, storage.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8080}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2025-03-11T12:34:58.906Z] I0311 14:34:58.903649   44020 control.go:59] [/emulator/saloongo-app dcbb] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:34:58.903649   44020 control.go:59] [/emulator/saloongo-app dcbb] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-03-11T12:34:58.907Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-03-11T12:34:58.907Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-03-11T12:34:58.907Z] Starting Data Connect Emulator with command {"binary":"C:\\Users\\Alex\\.cache\\firebase\\emulators\\dataconnect-emulator-1.8.3.exe","args":["--logtostderr","-v=2","dev","--listen=127.0.0.1:9399,[::1]:9399","--config_dir=C:\\Users\\Alex\\saloongo-app\\dataconnect","--enable_output_schema_extensions=true","--enable_output_generated_sdk=true"],"optionalArgs":["listen","config_dir","enable_output_schema_extensions","enable_output_generated_sdk"],"joinArgs":true,"shell":false,"port":9399} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Starting Data Connect Emulator with command {\"binary\":\"C:\\\\Users\\\\Alex\\\\.cache\\\\firebase\\\\emulators\\\\dataconnect-emulator-1.8.3.exe\",\"args\":[\"--logtostderr\",\"-v=2\",\"dev\",\"--listen=127.0.0.1:9399,[::1]:9399\",\"--config_dir=C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect\",\"--enable_output_schema_extensions=true\",\"--enable_output_generated_sdk=true\"],\"optionalArgs\":[\"listen\",\"config_dir\",\"enable_output_schema_extensions\",\"enable_output_generated_sdk\"],\"joinArgs\":true,\"shell\":false,\"port\":9399}"}}
+[info] i  dataconnect: Data Connect Emulator logging to dataconnect-debug.log {"metadata":{"emulator":{"name":"dataconnect"},"message":"Data Connect Emulator logging to \u001b[1mdataconnect-debug.log\u001b[22m"}}
+[info] i  dataconnect: Started up Postgres server, listening on {"address":"127.0.0.1","family":"IPv4","port":5433} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Started up Postgres server, listening on {\"address\":\"127.0.0.1\",\"family\":\"IPv4\",\"port\":5433}"}}
+[debug] [2025-03-11T12:34:58.926Z] [Data Connect] Connecting to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}...
+[debug] [2025-03-11T12:34:58.926Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-03-11T12:34:58.926Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5433/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"saloongo-app","maxOpenConnections":1}
+[debug] [2025-03-11T12:34:58.928Z] *** [apiv2] error from fetch(http://127.0.0.1:9399/emulator/configure, {"headers":{},"method":"POST","body":"{\"connectionString\":\"postgres://127.0.0.1:5433/fdcdb?sslmode=disable\",\"database\":\"fdcdb\",\"serviceId\":\"saloongo-app\",\"maxOpenConnections\":1}"}): FetchError: request to http://127.0.0.1:9399/emulator/configure failed, reason: connect ECONNREFUSED 127.0.0.1:9399
+[debug] [2025-03-11T12:34:58.928Z] [Data Connect] Retrying connectToPostgress call (1 of 3 attempts): FirebaseError: Data Connect emulator: undefined
+[debug] [2025-03-11T12:34:58.930Z] I0311 14:34:58.930159   45332 load.go:37] Reloading schema and connectors...
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:34:58.930159   45332 load.go:37] Reloading schema and connectors...\n"}}
+[debug] [2025-03-11T12:34:58.948Z] I0311 14:34:58.948666   45332 control.go:59] [/emulator/saloongo-app ba08] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:34:58.948666   45332 control.go:59] [/emulator/saloongo-app ba08] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-03-11T12:34:58.960Z] I0311 14:34:58.960262   45332 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:34:58.960262   45332 codegen.go:82] [connector \"default\" javascriptSdk] Generating sources into \"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect-generated\\\\js\\\\default-connector\"\n"}}
+[debug] [2025-03-11T12:34:58.962Z] I0311 14:34:58.962886   45332 collector.go:107] schema extensions wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [65582B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:34:58.962886   45332 collector.go:107] schema extensions wrote into \"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect\\\\.dataconnect\\\\schema\"\nGenerated sources: prelude.gql [65582B] \n"}}
+[debug] [2025-03-11T12:34:58.965Z] I0311 14:34:58.965793   45332 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
+Generated sources: react\esm\index.esm.js [0B] index.d.ts [246B] package.json [895B] README.md [2740B] react\index.d.ts [0B] react\esm\package.json [17B] react\index.cjs.js [0B] esm\index.esm.js [115B] esm\package.json [17B] index.cjs.js [151B] react\package.json [468B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:34:58.965793   45332 collector.go:107] connector \"default\" javascriptSdk wrote into \"C:\\\\Users\\\\Alex\\\\saloongo-app\\\\dataconnect-generated\\\\js\\\\default-connector\"\nGenerated sources: react\\esm\\index.esm.js [0B] index.d.ts [246B] package.json [895B] README.md [2740B] react\\index.d.ts [0B] react\\esm\\package.json [17B] react\\index.cjs.js [0B] esm\\index.esm.js [115B] esm\\package.json [17B] index.cjs.js [151B] react\\package.json [468B] \n"}}
+[debug] [2025-03-11T12:34:58.972Z] I0311 14:34:58.972714   45332 installsdk.go:76] Running command: C:\Program Files\nodejs\npm.cmd install file:dataconnect-generated\js\default-connector
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:34:58.972714   45332 installsdk.go:76] Running command: C:\\Program Files\\nodejs\\npm.cmd install file:dataconnect-generated\\js\\default-connector\n"}}
+[debug] [2025-03-11T12:35:00.378Z] I0311 14:35:00.377899   45332 load.go:115] Finished reloading
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:35:00.377899   45332 load.go:115] Finished reloading\n"}}
+[debug] [2025-03-11T12:35:00.378Z] I0311 14:35:00.379000   45332 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:35:00.379000   45332 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399\n"}}
+[debug] [2025-03-11T12:35:00.379Z] I0311 14:35:00.379000   45332 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:35:00.379000   45332 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399\n"}}
+[debug] [2025-03-11T12:35:00.934Z] [Data Connect] Connecting to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}...
+[debug] [2025-03-11T12:35:00.934Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-03-11T12:35:00.934Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5433/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"saloongo-app","maxOpenConnections":1}
+[debug] [2025-03-11T12:35:00.940Z] Frontend message 
+[debug] [2025-03-11T12:35:00.941Z] Backend message AuthenticationResponse
+[debug] [2025-03-11T12:35:00.941Z] Backend message ParameterStatus
+[debug] [2025-03-11T12:35:00.941Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:00.942Z] Frontend message Query
+[debug] [2025-03-11T12:35:01.309Z] Q   ; 
+[debug] [2025-03-11T12:35:01.310Z] Backend message EmptyQuery
+[debug] [2025-03-11T12:35:01.310Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.314Z] Frontend message Query
+[debug] [2025-03-11T12:35:01.331Z] Q   lSELECT setting FROM pg_settings WHERE name IN ('server_version_num', 'crdb_version') ORDER BY name DESC 
+[debug] [2025-03-11T12:35:01.331Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:35:01.331Z] Backend message DataRow
+[debug] [2025-03-11T12:35:01.332Z] Backend message CommandComplete
+[debug] [2025-03-11T12:35:01.332Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.332Z] Frontend message Parse
+[debug] [2025-03-11T12:35:01.334Z] P   � 
+SELECT
+	nspname AS schema_name,
+	pg_catalog.obj_description(oid) AS comment
+FROM
+    pg_catalog.pg_namespace
+WHERE
+    nspname = $1
+ORDER BY
+    nspname   
+[debug] [2025-03-11T12:35:01.334Z] Backend message ParseComplete
+[debug] [2025-03-11T12:35:01.334Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.335Z] Frontend message Describe
+[debug] [2025-03-11T12:35:01.335Z] D   S 
+[debug] [2025-03-11T12:35:01.335Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:35:01.336Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:35:01.336Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.336Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.337Z] S   
+[debug] [2025-03-11T12:35:01.337Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.337Z] Frontend message Bind
+[debug] [2025-03-11T12:35:01.339Z] B           public  
+[debug] [2025-03-11T12:35:01.339Z] Backend message BindComplete
+[debug] [2025-03-11T12:35:01.339Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.339Z] Frontend message Execute
+[debug] [2025-03-11T12:35:01.342Z] E   	     
+[debug] [2025-03-11T12:35:01.342Z] Backend message DataRow
+[debug] [2025-03-11T12:35:01.342Z] Backend message CommandComplete
+[debug] [2025-03-11T12:35:01.342Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.342Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.343Z] S   
+[debug] [2025-03-11T12:35:01.343Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.344Z] Frontend message Parse
+[debug] [2025-03-11T12:35:01.345Z] P  / 
+SELECT
+	n.nspname AS schema_name,
+	e.enumtypid AS enum_id,
+	t.typname AS enum_name,
+	e.enumlabel AS enum_value
+FROM
+	pg_enum e
+	JOIN pg_type t ON e.enumtypid = t.oid
+	JOIN pg_namespace n ON t.typnamespace = n.oid
+WHERE
+    n.nspname IN ($1)
+ORDER BY
+    n.nspname, e.enumtypid, e.enumsortorder
+   
+[debug] [2025-03-11T12:35:01.345Z] Backend message ParseComplete
+[debug] [2025-03-11T12:35:01.345Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.345Z] Frontend message Describe
+[debug] [2025-03-11T12:35:01.346Z] D   S 
+[debug] [2025-03-11T12:35:01.346Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:35:01.346Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:35:01.346Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.346Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.347Z] S   
+[debug] [2025-03-11T12:35:01.347Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.347Z] Frontend message Bind
+[debug] [2025-03-11T12:35:01.350Z] B           public  
+[debug] [2025-03-11T12:35:01.351Z] Backend message BindComplete
+[debug] [2025-03-11T12:35:01.351Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.351Z] Frontend message Execute
+[debug] [2025-03-11T12:35:01.352Z] E   	     
+[debug] [2025-03-11T12:35:01.352Z] Backend message CommandComplete
+[debug] [2025-03-11T12:35:01.352Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.353Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.353Z] S   
+[debug] [2025-03-11T12:35:01.353Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.353Z] Frontend message Parse
+[debug] [2025-03-11T12:35:01.358Z] P  0 
+SELECT
+	t3.oid,
+	t1.table_schema,
+	t1.table_name,
+	pg_catalog.obj_description(t3.oid, 'pg_class') AS comment,
+	t4.partattrs AS partition_attrs,
+	t4.partstrat AS partition_strategy,
+	pg_get_expr(t4.partexprs, t4.partrelid) AS partition_exprs
+FROM
+	INFORMATION_SCHEMA.TABLES AS t1
+	JOIN pg_catalog.pg_namespace AS t2 ON t2.nspname = t1.table_schema
+	JOIN pg_catalog.pg_class AS t3 ON t3.relnamespace = t2.oid AND t3.relname = t1.table_name
+	LEFT JOIN pg_catalog.pg_partitioned_table AS t4 ON t4.partrelid = t3.oid
+	LEFT JOIN pg_depend AS t5 ON t5.classid = 'pg_catalog.pg_class'::regclass::oid AND t5.objid = t3.oid AND t5.deptype = 'e'
+WHERE
+	t1.table_type = 'BASE TABLE'
+	AND NOT COALESCE(t3.relispartition, false)
+	AND t1.table_schema IN ($1)
+	AND t5.objid IS NULL
+ORDER BY
+	t1.table_schema, t1.table_name
+   
+[debug] [2025-03-11T12:35:01.358Z] Backend message ParseComplete
+[debug] [2025-03-11T12:35:01.358Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.358Z] Frontend message Describe
+[debug] [2025-03-11T12:35:01.359Z] D   S 
+[debug] [2025-03-11T12:35:01.359Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:35:01.359Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:35:01.359Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.359Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.360Z] S   
+[debug] [2025-03-11T12:35:01.360Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.360Z] Frontend message Bind
+[debug] [2025-03-11T12:35:01.367Z] B           public  
+[debug] [2025-03-11T12:35:01.367Z] Backend message BindComplete
+[debug] [2025-03-11T12:35:01.367Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.368Z] Frontend message Execute
+[debug] [2025-03-11T12:35:01.369Z] E   	     
+[debug] [2025-03-11T12:35:01.369Z] Backend message CommandComplete
+[debug] [2025-03-11T12:35:01.369Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.369Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.370Z] S   
+[debug] [2025-03-11T12:35:01.370Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.370Z] Frontend message Query
+[debug] [2025-03-11T12:35:01.373Z] Q   %SELECT extname FROM pg_extension 
+[debug] [2025-03-11T12:35:01.373Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:35:01.373Z] Backend message DataRow
+[debug] [2025-03-11T12:35:01.373Z] Backend message CommandComplete
+[debug] [2025-03-11T12:35:01.373Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.373Z] Frontend message Parse
+[debug] [2025-03-11T12:35:01.374Z] P   � 
+SELECT
+	nspname AS schema_name,
+	pg_catalog.obj_description(oid) AS comment
+FROM
+    pg_catalog.pg_namespace
+WHERE
+    nspname = $1
+ORDER BY
+    nspname   
+[debug] [2025-03-11T12:35:01.374Z] Backend message ParseComplete
+[debug] [2025-03-11T12:35:01.374Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.374Z] Frontend message Describe
+[debug] [2025-03-11T12:35:01.374Z] D   S 
+[debug] [2025-03-11T12:35:01.375Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:35:01.375Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:35:01.375Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.375Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.375Z] S   
+[debug] [2025-03-11T12:35:01.375Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.376Z] Frontend message Bind
+[debug] [2025-03-11T12:35:01.376Z] B           public  
+[debug] [2025-03-11T12:35:01.376Z] Backend message BindComplete
+[debug] [2025-03-11T12:35:01.377Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.377Z] Frontend message Execute
+[debug] [2025-03-11T12:35:01.378Z] E   	     
+[debug] [2025-03-11T12:35:01.378Z] Backend message DataRow
+[debug] [2025-03-11T12:35:01.378Z] Backend message CommandComplete
+[debug] [2025-03-11T12:35:01.378Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.379Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.379Z] S   
+[debug] [2025-03-11T12:35:01.380Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.380Z] Frontend message Parse
+[debug] [2025-03-11T12:35:01.381Z] P  / 
+SELECT
+	n.nspname AS schema_name,
+	e.enumtypid AS enum_id,
+	t.typname AS enum_name,
+	e.enumlabel AS enum_value
+FROM
+	pg_enum e
+	JOIN pg_type t ON e.enumtypid = t.oid
+	JOIN pg_namespace n ON t.typnamespace = n.oid
+WHERE
+    n.nspname IN ($1)
+ORDER BY
+    n.nspname, e.enumtypid, e.enumsortorder
+   
+[debug] [2025-03-11T12:35:01.381Z] Backend message ParseComplete
+[debug] [2025-03-11T12:35:01.381Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.381Z] Frontend message Describe
+[debug] [2025-03-11T12:35:01.381Z] D   S 
+[debug] [2025-03-11T12:35:01.382Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:35:01.382Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:35:01.382Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.382Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.382Z] S   
+[debug] [2025-03-11T12:35:01.382Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.383Z] Frontend message Bind
+[debug] [2025-03-11T12:35:01.384Z] B           public  
+[debug] [2025-03-11T12:35:01.384Z] Backend message BindComplete
+[debug] [2025-03-11T12:35:01.384Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.385Z] Frontend message Execute
+[debug] [2025-03-11T12:35:01.386Z] E   	     
+[debug] [2025-03-11T12:35:01.386Z] Backend message CommandComplete
+[debug] [2025-03-11T12:35:01.386Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.386Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.387Z] S   
+[debug] [2025-03-11T12:35:01.388Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.388Z] Frontend message Parse
+[debug] [2025-03-11T12:35:01.390Z] P  0 
+SELECT
+	t3.oid,
+	t1.table_schema,
+	t1.table_name,
+	pg_catalog.obj_description(t3.oid, 'pg_class') AS comment,
+	t4.partattrs AS partition_attrs,
+	t4.partstrat AS partition_strategy,
+	pg_get_expr(t4.partexprs, t4.partrelid) AS partition_exprs
+FROM
+	INFORMATION_SCHEMA.TABLES AS t1
+	JOIN pg_catalog.pg_namespace AS t2 ON t2.nspname = t1.table_schema
+	JOIN pg_catalog.pg_class AS t3 ON t3.relnamespace = t2.oid AND t3.relname = t1.table_name
+	LEFT JOIN pg_catalog.pg_partitioned_table AS t4 ON t4.partrelid = t3.oid
+	LEFT JOIN pg_depend AS t5 ON t5.classid = 'pg_catalog.pg_class'::regclass::oid AND t5.objid = t3.oid AND t5.deptype = 'e'
+WHERE
+	t1.table_type = 'BASE TABLE'
+	AND NOT COALESCE(t3.relispartition, false)
+	AND t1.table_schema IN ($1)
+	AND t5.objid IS NULL
+ORDER BY
+	t1.table_schema, t1.table_name
+   
+[debug] [2025-03-11T12:35:01.390Z] Backend message ParseComplete
+[debug] [2025-03-11T12:35:01.390Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.391Z] Frontend message Describe
+[debug] [2025-03-11T12:35:01.392Z] D   S 
+[debug] [2025-03-11T12:35:01.393Z] Backend message ParameterDescriptionMessage
+[debug] [2025-03-11T12:35:01.393Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:35:01.393Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.393Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.394Z] S   
+[debug] [2025-03-11T12:35:01.394Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.395Z] Frontend message Bind
+[debug] [2025-03-11T12:35:01.400Z] B           public  
+[debug] [2025-03-11T12:35:01.400Z] Backend message BindComplete
+[debug] [2025-03-11T12:35:01.400Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.400Z] Frontend message Execute
+[debug] [2025-03-11T12:35:01.402Z] E   	     
+[debug] [2025-03-11T12:35:01.402Z] Backend message CommandComplete
+[debug] [2025-03-11T12:35:01.402Z] Filtered out a ReadyForQuery.
+[debug] [2025-03-11T12:35:01.402Z] Frontend message Sync
+[debug] [2025-03-11T12:35:01.403Z] S   
+[debug] [2025-03-11T12:35:01.403Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.403Z] Frontend message Query
+[debug] [2025-03-11T12:35:01.404Z] Q   %SELECT extname FROM pg_extension 
+[debug] [2025-03-11T12:35:01.404Z] Backend message RowDescriptionMessage
+[debug] [2025-03-11T12:35:01.404Z] Backend message DataRow
+[debug] [2025-03-11T12:35:01.404Z] Backend message CommandComplete
+[debug] [2025-03-11T12:35:01.404Z] Backend message ReadyForQuery
+[debug] [2025-03-11T12:35:01.413Z] I0311 14:35:01.414100   45332 control.go:59] [/emulator/saloongo-app 4491] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0311 14:35:01.414100   45332 control.go:59] [/emulator/saloongo-app 4491] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-03-11T12:35:01.415Z] <<< [apiv2][status] POST http://127.0.0.1:9399/emulator/configure 200
+[debug] [2025-03-11T12:35:01.415Z] <<< [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {}
+[debug] [2025-03-11T12:35:01.415Z] [Data Connect] Successfully connected to postgres://127.0.0.1:5433/fdcdb?sslmode=disable}
+[debug] [2025-03-11T12:35:01.419Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-03-11T12:35:02.090Z] Temp file directory for storage emulator: C:\Users\Alex\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\Alex\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2025-03-11T12:35:02.098Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\Alex\saloongo-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Alex\\saloongo-app\\functions\" for Cloud Functions..."}}
+[debug] [2025-03-11T12:35:02.103Z] Validating nodejs source
+[debug] [2025-03-11T12:35:02.757Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -500,135 +856,62 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   },
   "private": true
 }
-[debug] [2025-03-08T12:50:41.405Z] Building nodejs source
-[debug] [2025-03-08T12:50:41.406Z] Failed to find version of module node: reached end of search path C:\Users\Alex\saloongo-app\functions\node_modules
+[debug] [2025-03-11T12:35:02.757Z] Building nodejs source
+[debug] [2025-03-11T12:35:02.757Z] Failed to find version of module node: reached end of search path C:\Users\Alex\saloongo-app\functions\node_modules
 [warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
-[debug] [2025-03-08T12:50:41.407Z] Could not find functions.yaml. Must use http discovery
-[debug] [2025-03-08T12:50:41.412Z] Found firebase-functions binary at 'C:\Users\Alex\saloongo-app\functions\node_modules\.bin\firebase-functions'
-[info] Serving at port 8222
+[debug] [2025-03-11T12:35:02.763Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-03-11T12:35:02.768Z] Found firebase-functions binary at 'C:\Users\Alex\saloongo-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8239
 
-[debug] [2025-03-08T12:50:41.572Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
-[debug] [2025-03-08T12:50:46.151Z] File C:\Users\Alex\saloongo-app\functions\firestore.rules changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Alex\\saloongo-app\\functions\\firestore.rules changed, reloading triggers"}}
-[debug] [2025-03-08T12:50:46.594Z] defaultcredentials: writing to file C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json
-[debug] [2025-03-08T12:50:46.595Z] Setting GAC to C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Alex\\AppData\\Roaming\\firebase\\alex_tudoran99_gmail.com_application_default_credentials.json"}}
+[debug] [2025-03-11T12:35:02.990Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-03-11T12:35:08.004Z] defaultcredentials: writing to file C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json
+[debug] [2025-03-11T12:35:08.004Z] Setting GAC to C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Alex\\AppData\\Roaming\\firebase\\alex_tudoran99_gmail.com_application_default_credentials.json"}}
 [info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
-[debug] [2025-03-08T12:50:47.152Z] Validating nodejs source
-[debug] [2025-03-08T12:50:47.821Z] > [functions] package.json contents: {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log",
-    "build": "npm run lint",
-    "start-emulator": "firebase emulators:start --only firestore --import=./emulator-data --export-on-exit",
-    "load-rules": "firebase firestore:rules firestore.rules"
-  },
-  "engines": {
-    "node": "22"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "firebase-admin": "^12.6.0",
-    "firebase-functions": "^6.0.1"
-  },
-  "devDependencies": {
-    "@rushstack/eslint-patch": "^1.10.5",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "^15.2.1",
-    "firebase-functions-test": "^3.1.0"
-  },
-  "private": true
-}
-[debug] [2025-03-08T12:50:47.822Z] Building nodejs source
-[debug] [2025-03-08T12:50:47.822Z] Failed to find version of module node: reached end of search path C:\Users\Alex\saloongo-app\functions\node_modules
-[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
-[debug] [2025-03-08T12:50:47.823Z] Could not find functions.yaml. Must use http discovery
-[debug] [2025-03-08T12:50:47.827Z] Found firebase-functions binary at 'C:\Users\Alex\saloongo-app\functions\node_modules\.bin\firebase-functions'
-[info] Serving at port 8044
+[debug] [2025-03-11T12:35:08.006Z] >>> [apiv2][query] GET http://127.0.0.1:9399/emulator/info [none]
+[debug] [2025-03-11T12:35:08.007Z] <<< [apiv2][status] GET http://127.0.0.1:9399/emulator/info 200
+[debug] [2025-03-11T12:35:08.007Z] <<< [apiv2][body] GET http://127.0.0.1:9399/emulator/info {"version":"","services":[{"serviceId":"saloongo-app","connectionString":"dbname='fdcdb' host='127.0.0.1' port='5433' sslmode='disable' dbname='fdcdb'"}]}
+[debug] [2025-03-11T12:35:08.010Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
 
-[debug] [2025-03-08T12:50:47.989Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
-[debug] [2025-03-08T12:50:53.007Z] defaultcredentials: writing to file C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json
-[debug] [2025-03-08T12:50:53.007Z] Setting GAC to C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Alex\\AppData\\Roaming\\firebase\\alex_tudoran99_gmail.com_application_default_credentials.json"}}
-[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
-[debug] [2025-03-08T12:50:56.567Z] File C:\Users\Alex\saloongo-app\functions\firestore.rules changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Alex\\saloongo-app\\functions\\firestore.rules changed, reloading triggers"}}
-[debug] [2025-03-08T12:50:57.582Z] Validating nodejs source
-[debug] [2025-03-08T12:50:58.282Z] > [functions] package.json contents: {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log",
-    "build": "npm run lint",
-    "start-emulator": "firebase emulators:start --only firestore --import=./emulator-data --export-on-exit",
-    "load-rules": "firebase firestore:rules firestore.rules"
-  },
-  "engines": {
-    "node": "22"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "firebase-admin": "^12.6.0",
-    "firebase-functions": "^6.0.1"
-  },
-  "devDependencies": {
-    "@rushstack/eslint-patch": "^1.10.5",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "^15.2.1",
-    "firebase-functions-test": "^3.1.0"
-  },
-  "private": true
-}
-[debug] [2025-03-08T12:50:58.282Z] Building nodejs source
-[debug] [2025-03-08T12:50:58.282Z] Failed to find version of module node: reached end of search path C:\Users\Alex\saloongo-app\functions\node_modules
-[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
-[debug] [2025-03-08T12:50:58.283Z] Could not find functions.yaml. Must use http discovery
-[debug] [2025-03-08T12:50:58.288Z] Found firebase-functions binary at 'C:\Users\Alex\saloongo-app\functions\node_modules\.bin\firebase-functions'
-[info] Serving at port 8476
-
-[debug] [2025-03-08T12:50:58.487Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
-[debug] [2025-03-08T12:51:03.501Z] defaultcredentials: writing to file C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json
-[debug] [2025-03-08T12:51:03.501Z] Setting GAC to C:\Users\Alex\AppData\Roaming\firebase\alex_tudoran99_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Alex\\AppData\\Roaming\\firebase\\alex_tudoran99_gmail.com_application_default_credentials.json"}}
-[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
-[info] i  firestore: Change detected, updating rules... 
-[debug] [2025-03-08T12:53:43.684Z] >>> [apiv2][query] PUT http://127.0.0.1:8080/emulator/v1/projects/saloongo-ecd0e:securityRules [none]
-[debug] [2025-03-08T12:53:43.685Z] >>> [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/saloongo-ecd0e:securityRules {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":""}]}}
-[debug] [2025-03-08T12:53:43.728Z] <<< [apiv2][status] PUT http://127.0.0.1:8080/emulator/v1/projects/saloongo-ecd0e:securityRules 200
-[debug] [2025-03-08T12:53:43.728Z] <<< [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/saloongo-ecd0e:securityRules {"issues":[{"sourcePosition":{"fileName":"security.rules"},"description":"Rules content empty. Compilation aborted.","severity":"ERROR"}]}
-[warn] !  firestore.rules:0:0 - ERROR Rules content empty. Compilation aborted. 
-[info] +  firestore: Rules updated. 
-[info] i  firestore: Change detected, updating rules... 
-[debug] [2025-03-08T12:53:51.089Z] >>> [apiv2][query] PUT http://127.0.0.1:8080/emulator/v1/projects/saloongo-ecd0e:securityRules [none]
-[debug] [2025-03-08T12:53:51.089Z] >>> [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/saloongo-ecd0e:securityRules {"ignore_errors":true,"rules":{"files":[{"name":"security.rules","content":"rules_version = '2';\n\nservice cloud.firestore {\n  match /databases/{database}/documents {\n\n    // This rule allows anyone with your Firestore database reference to view, edit,\n    // and delete all data in your Firestore database. It is useful for getting\n    // started, but it is configured to expire after 30 days because it\n    // leaves your app open to attackers. At that time, all client\n    // requests to your Firestore database will be denied.\n    //\n    // Make sure to write security rules for your app before that time, or else\n    // all client requests to your Firestore database will be denied until you Update\n    // your rules\n    match /{document=**} {\n      allow read, write: if request.time < timestamp.date(2025, 4, 5);\n    }\n  }\n}"}]}}
-[debug] [2025-03-08T12:53:51.112Z] <<< [apiv2][status] PUT http://127.0.0.1:8080/emulator/v1/projects/saloongo-ecd0e:securityRules 200
-[debug] [2025-03-08T12:53:51.113Z] <<< [apiv2][body] PUT http://127.0.0.1:8080/emulator/v1/projects/saloongo-ecd0e:securityRules {}
-[info] +  firestore: Rules updated. 
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[warn] !  Rules content empty. Compilation aborted in C:\Users\Alex\saloongo-app\storage.rules:0 {"metadata":{"emulator":{"name":"storage"},"message":"Rules content empty. Compilation aborted in C:\\Users\\Alex\\saloongo-app\\storage.rules:0"}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[warn] !  Unexpected 'git' in C:\Users\Alex\saloongo-app\storage.rules:10 {"metadata":{"emulator":{"name":"storage"},"message":"Unexpected 'git' in C:\\Users\\Alex\\saloongo-app\\storage.rules:10"}}
-[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
-[debug] [2025-03-08T14:04:33.973Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
-[debug] [2025-03-08T14:04:33.975Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"2a43fa9c-0f45-48a2-a6ad-15a2207fdfd4","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/saloongo-ecd0e","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2025-03-08T14:04:33.972Z","data":{"uid":"s0iRJ9h4NDFhJ7wjYI9Hlktjh66C","email":"a@","emailVerified":true,"displayName":"a","photoURL":"a","metadata":{"creationTime":"2025-03-08T14:04:33.970Z","lastSignInTime":"2025-03-08T14:04:33.970Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"4041244043925334671938961332707949167560","federatedId":"4041244043925334671938961332707949167560","displayName":"a","photoUrl":"a","email":"a@","screenName":"a"}]}}
-[debug] [2025-03-08T14:04:33.991Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
-[debug] [2025-03-08T14:04:33.991Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
-[debug] [2025-03-08T14:17:31.207Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
-[debug] [2025-03-08T14:17:31.207Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"5af6a1e1-8be0-45fa-bf79-c2b31891cd4e","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/saloongo-ecd0e","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2025-03-08T14:17:31.207Z","data":{"uid":"fRdmSJx0xOPhwulwMVLbLJdq1IrX","email":"11@","emailVerified":true,"displayName":"d","metadata":{"creationTime":"2025-03-08T14:17:31.207Z","lastSignInTime":"2025-03-08T14:17:31.207Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"9930680080559741886865050859663684381672","federatedId":"9930680080559741886865050859663684381672","displayName":"d","email":"11@","screenName":"d"}]}}
-[debug] [2025-03-08T14:17:31.212Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
-[debug] [2025-03-08T14:17:31.212Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
-[debug] [2025-03-08T14:24:25.185Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
-[debug] [2025-03-08T14:24:25.185Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"9b85c910-4160-4d63-ab1f-9da2c52babb8","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/saloongo-ecd0e","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2025-03-08T14:24:25.184Z","data":{"uid":"XnhyRuPsemK1eYZFgJu3qoSIqc5V","email":"w@","emailVerified":true,"displayName":"w","metadata":{"creationTime":"2025-03-08T14:24:25.184Z","lastSignInTime":"2025-03-08T14:24:25.184Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"3133386059724891011272179078005203946555","federatedId":"3133386059724891011272179078005203946555","displayName":"w","email":"w@","screenName":"w"}]}}
-[debug] [2025-03-08T14:24:25.188Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
-[debug] [2025-03-08T14:24:25.188Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
+┌────────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth       │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore  │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage    │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Data Connect   │ 127.0.0.1:9399 │ n/a                              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions     │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500, 9150
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2025-03-11T12:35:35.064Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
+[debug] [2025-03-11T12:35:35.064Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"56b86624-ef9c-4440-b2ba-004065a088cd","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/saloongo-ecd0e","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2025-03-11T12:35:35.063Z","data":{"uid":"1HLvfoDam2B8LUii6LcFHK0Ajyid","email":"test@","emailVerified":true,"displayName":"test","metadata":{"creationTime":"2025-03-11T12:35:35.063Z","lastSignInTime":"2025-03-11T12:35:35.063Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"5320603421109613248726352595560411720347","federatedId":"5320603421109613248726352595560411720347","displayName":"test","email":"test@"}]}}
+[debug] [2025-03-11T12:35:35.070Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
+[debug] [2025-03-11T12:35:35.070Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2025-03-11T12:52:05.494Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
+[debug] [2025-03-11T12:52:05.495Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"8f59f197-50b6-44f8-bf97-a0430ff3e877","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/saloongo-ecd0e","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2025-03-11T12:52:05.494Z","data":{"uid":"XOmbJLXWo1BmWQi5bIggqTFBAaEZ","email":"test2@","emailVerified":true,"displayName":"test2","metadata":{"creationTime":"2025-03-11T12:52:05.494Z","lastSignInTime":"2025-03-11T12:52:05.494Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"8921292939017695326957544168754378273615","federatedId":"8921292939017695326957544168754378273615","displayName":"test2","email":"test2@"}]}}
+[debug] [2025-03-11T12:52:05.497Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
+[debug] [2025-03-11T12:52:05.497Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2025-03-11T12:52:28.987Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
+[debug] [2025-03-11T12:52:28.987Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"eventId":"1741697548987","timestamp":"2025-03-11T12:52:28.987Z","eventType":"google.storage.object.finalize","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/saloongo-ecd0e.firebasestorage.app/objects/images/barbershopExample.jpg","type":"storage#object"},"data":{"kind":"storage#object","name":"images/barbershopExample.jpg","bucket":"saloongo-ecd0e.firebasestorage.app","generation":"1741697548869","metageneration":"1","contentType":"image/jpeg","timeCreated":"2025-03-11T12:52:28.869Z","updated":"2025-03-11T12:52:28.869Z","storageClass":"STANDARD","size":"82326","md5Hash":"tMfZhlpyfJrDBeQzYdgekA==","etag":"iXw3nIKVP29Q+3GtcMsy60AMPR8","metadata":{"firebaseStorageDownloadTokens":"1fd44e5d-ee56-4710-bcd5-c3a0850d13b9"},"crc32c":"Qdh7Og==","timeStorageClassUpdated":"2025-03-11T12:52:28.869Z","id":"saloongo-ecd0e.firebasestorage.app/images/barbershopExample.jpg/1741697548869","selfLink":"http://127.0.0.1:9199/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2FbarbershopExample.jpg","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2FbarbershopExample.jpg?generation=1741697548869&alt=media"}}
+[debug] [2025-03-11T12:52:28.991Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
+[debug] [2025-03-11T12:52:28.991Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2025-03-11T12:52:28.991Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast [none]
+[debug] [2025-03-11T12:52:28.991Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"specversion":"1.0","id":"4fe7f42b-189b-49a2-a0d8-64588e593a11","type":"google.cloud.storage.object.v1.finalized","source":"//storage.googleapis.com/projects/_/buckets/saloongo-ecd0e.firebasestorage.app/objects/images/barbershopExample.jpg","time":"2025-03-11T12:52:28.869Z","data":{"kind":"storage#object","name":"images/barbershopExample.jpg","bucket":"saloongo-ecd0e.firebasestorage.app","generation":"1741697548869","metageneration":"1","contentType":"image/jpeg","timeCreated":"2025-03-11T12:52:28.869Z","updated":"2025-03-11T12:52:28.869Z","storageClass":"STANDARD","size":"82326","md5Hash":"tMfZhlpyfJrDBeQzYdgekA==","etag":"iXw3nIKVP29Q+3GtcMsy60AMPR8","metadata":{"firebaseStorageDownloadTokens":"1fd44e5d-ee56-4710-bcd5-c3a0850d13b9"},"crc32c":"Qdh7Og==","timeStorageClassUpdated":"2025-03-11T12:52:28.869Z","id":"saloongo-ecd0e.firebasestorage.app/images/barbershopExample.jpg/1741697548869","selfLink":"http://127.0.0.1:9199/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2FbarbershopExample.jpg","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/saloongo-ecd0e.firebasestorage.app/o/images%2FbarbershopExample.jpg?generation=1741697548869&alt=media"}}
+[debug] [2025-03-11T12:52:28.996Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast 200
+[debug] [2025-03-11T12:52:28.996Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/saloongo-ecd0e/trigger_multicast {"status":"multicast_acknowledged"}

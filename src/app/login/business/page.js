@@ -1,38 +1,47 @@
 "use client"
 import { useRouter } from "next/navigation"; // Import useRouter
-import { signInWithGoogle } from "../../firebase";
+import { signInWithGoogle, db } from "../../firebase"; // Import db from firebase.js
 import styles from "./Login.Business.module.css"; // Import CSS Module
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { doc, getDoc, setDoc } from "firebase/firestore"; // Import Firestore functions
 
 export default function BusinessLogin() {
     const router = useRouter(); // Initialize the router
 
     const handleGoogleLogin = async () => {
         try {
-            const userCredential = await signInWithGoogle(); // Log in user
-            const user = userCredential.user; // Get user details
+          const userCredential = await signInWithGoogle(); // Log in user
+          const user = userCredential.user; // Get user details
       
-            // Reference Firestore "users" collection
-            const userRef = doc(db, "users", user.email);
-            const userSnap = await getDoc(userRef);
+          // Reference Firestore "users" collection
+          const userRef = doc(db, "users", user.uid); // Use the imported doc function
+          const userSnap = await getDoc(userRef); // Use the imported getDoc function
       
-            if (!userSnap.exists()) {
-              // If user is logging in for the first time, save role as "salon_owner"
-              await setDoc(userRef, {
-                email: user.email,
-                name: user.displayName,
-                role: "salon_owner", // This makes them a business owner
-                createdAt: new Date(),
-              });
+          if (!userSnap.exists()) {
+            // If user is logging in for the first time, save role as "salon_owner"
+            await setDoc(userRef, { // Use the imported setDoc function
+              email: user.email,
+              name: user.displayName,
+              photoURL: user.photoURL, // Store the user's photo URL
+              role: "salon_owner", // This makes them a business owner
+              createdAt: new Date(),
+            });
+            router.push("/salon-dashboard"); // Redirect to salon owner dashboard
+          } else {
+            const userData = userSnap.data();
+            if (userData.role.includes("user")) {
+              await setDoc(userRef, { role: "salon_owner,user" }, { merge: true });
+              router.push("/role-selection"); // Redirect to role selection page
+            } else {
+              router.push("/salon-dashboard"); // Redirect to salon owner dashboard
             }
-      
-            // Redirect to salon owner dashboard
-            router.push("/salon-dashboard");
-          } catch (error) {
-            console.error("Login error:", error);
           }
-        };
+        } catch (error) {
+          console.error("Login error:", error);
+          toast.error("Login failed: " + error.message); // Show error toast
+        }
+      };
   
     return (
       <div className={styles.loginContainer}>

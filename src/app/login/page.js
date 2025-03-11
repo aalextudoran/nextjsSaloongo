@@ -1,20 +1,44 @@
 "use client"; // Mark this as a client component
 
 import { useRouter } from "next/navigation"; // Import useRouter
-import { signInWithGoogle } from "../firebase";
+import { signInWithGoogle, db } from "../firebase"; // Import db from firebase.js
 import styles from "./Login.module.css"; // Import CSS Module
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { doc, getDoc, setDoc } from "firebase/firestore"; // Import Firestore functions
 
 export default function LoginPage() {
   const router = useRouter(); // Initialize the router
 
   const handleGoogleLogin = async () => {
     try {
-      await signInWithGoogle();
-      toast.success("Login successful!"); // Show success toast
-      router.push("/"); // Redirect to the home page
+      const userCredential = await signInWithGoogle(); // Log in user
+      const user = userCredential.user; // Get user details
+
+      // Reference Firestore "users" collection
+      const userRef = doc(db, "users", user.uid); // Use the imported doc function
+      const userSnap = await getDoc(userRef); // Use the imported getDoc function
+
+      if (!userSnap.exists()) {
+        // If user is logging in for the first time, save user details
+        await setDoc(userRef, { // Use the imported setDoc function
+          email: user.email,
+          name: user.displayName,
+          photoURL: user.photoURL, // Store the user's photo URL
+          role: "user",
+          createdAt: new Date(),
+        });
+        toast.success("Login successful!"); // Show success toast
+        router.push("/"); // Redirect to the home page
+      } else {
+        const userData = userSnap.data();
+        if (userData.role.includes("salon_owner")) {
+          router.push("/role-selection"); // Redirect to role selection page
+        } else {
+          toast.success("Login successful!"); // Show success toast
+          router.push("/"); // Redirect to the home page
+        }
+      }
     } catch (error) {
       toast.error("Login failed: " + error.message); // Show error toast
     }

@@ -36,8 +36,10 @@ export const signInWithGoogle = async () => {
   try {
     const result = await signInWithPopup(auth, provider);
     console.log("User signed in:", result.user);
+    return result; // Return the user credential
   } catch (error) {
     console.error("Error signing in:", error);
+    throw error; // Rethrow the error to be handled by the caller
   }
 };
 
@@ -91,7 +93,9 @@ export { app, auth, storage, db };
 //     try {
 //       const result = await signInWithPopup(auth, provider);
 //       console.log("User signed in:", result.user);
+//       return result; // Return the user credential
 //     } catch (error) {
 //       console.error("Error signing in:", error);
+//       throw error; // Rethrow the error to be handled by the caller
 //     }
 //   };
