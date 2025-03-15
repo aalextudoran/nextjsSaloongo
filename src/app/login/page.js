@@ -7,6 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { doc, getDoc, setDoc } from "firebase/firestore"; // Import Firestore functions
 
+
 export default function LoginPage() {
   const router = useRouter(); // Initialize the router
 

@@ -91,3 +91,24 @@
 .submitButton:hover {
   background-color: #218838;
 }
+
+.manageButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.manageButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.manageButton:hover {
+  background-color: #0056b3;
+}

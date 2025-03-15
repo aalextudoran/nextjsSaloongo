@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Header from "./components/header/header";  
 import SalonsFrequent from "./components/salonsFrequent/salonsFrequent";
-import GoToBussiness from "./components/gotobusiness/gotobussiness";
 import Footer from "./components/footer/footer";
+import SalonsNew from "./components/salonsNew/salonsNew";
+import SalonRegister from "./components/salonRegister/salonRegister";
 
 export default function Home() {
 
@@ -10,13 +11,9 @@ export default function Home() {
       <div>
       <Header />
       <SalonsFrequent />
-      <GoToBussiness />
+      <SalonsNew/>
+      <SalonRegister/>
       <Footer />
-      {/* Add the rest of your home page content here */}
-      {/* <main>
-        <h2>Welcome to Saloongo!</h2>
-        <p>Discover the best beauty services in your city.</p>
-      </main> */}
     </div>
     );
 

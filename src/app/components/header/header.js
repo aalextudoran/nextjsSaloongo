@@ -114,24 +114,42 @@ export default function Header() {
 
       {/* Service Icons */}
       <div className={styles.serviceIcons}>
-        <button className={styles.icon}>
-          <img src="/assets/coafor-icon.png" alt="Coafor" />
-        </button>
-        <button className={styles.icon}>
-          <img src="/assets/barba-icon.png" alt="Barba" />
-        </button>
-        <button className={styles.icon}>
-          <img src="/assets/wellness-icon.png" alt="Wellness" />
-        </button>
-        <button className={styles.icon}>
-          <img src="/assets/frizerie-icon.png" alt="Frizerie" />
-        </button>
-        <button className={styles.icon}>
-          <img src="/assets/fata-icon.png" alt="Fata" />
-        </button>
-        <button className={styles.icon}>
-          <img src="/assets/picioare-icon.png" alt="Picioare" />
-        </button>
+        <div className={styles.iconContainer}>
+          <button className={styles.icon}>
+            <img src="/assets/coafor-icon.png" alt="Coafor" />
+          </button>
+          <span className={styles.iconText}>Coafor</span>
+        </div>
+        <div className={styles.iconContainer}>
+          <button className={styles.icon}>
+            <img src="/assets/barba-icon.png" alt="Barba" />
+          </button>
+          <span className={styles.iconText}>Barba</span>
+        </div>
+        <div className={styles.iconContainer}>
+          <button className={styles.icon}>
+            <img src="/assets/wellness-icon.png" alt="Wellness" />
+          </button>
+          <span className={styles.iconText}>Wellness</span>
+        </div>
+        <div className={styles.iconContainer}>
+          <button className={styles.icon}>
+            <img src="/assets/frizerie-icon.png" alt="Frizerie" />
+          </button>
+          <span className={styles.iconText}>Frizerie</span>
+        </div>
+        <div className={styles.iconContainer}>
+          <button className={styles.icon}>
+            <img src="/assets/fata-icon.png" alt="Fata" />
+          </button>
+          <span className={styles.iconText}>Fata</span>
+        </div>
+        <div className={styles.iconContainer}>
+          <button className={styles.icon}>
+            <img src="/assets/picioare-icon.png" alt="Picioare" />
+          </button>
+          <span className={styles.iconText}>Picioare</span>
+        </div>
       </div>
 
       {/* Search Bar */}
@@ -140,10 +158,12 @@ export default function Header() {
         <span className={styles.separator}></span>
         <input type="text" placeholder="Locație" />
         <span className={styles.separator}></span>
-        <input type="date" placeholder="Data" />
+        {/* <input type="date" placeholder="Data" /> */}
+        <input type="text" placeholder="Data" />
         <span className={styles.separator}></span>
-        <input type="time" placeholder="Ora" />
-        <button>Caută</button>
+        {/* <input type="time" placeholder="Ora" /> */}
+         <input type="text" placeholder="Ora" />
+        <button >Caută</button>
       </div>
 
       {/* Main Header */}

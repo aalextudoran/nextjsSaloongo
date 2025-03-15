@@ -1,0 +1,110 @@
+/* Container for the services section */
+.servicesContainer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* List of services */
+.serviceList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual service item */
+.serviceItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.serviceItem:hover {
+  background-color: #f1f1f1;
+}
+
+/* Service details */
+.serviceDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.serviceName {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.serviceDescription {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Action buttons for edit and delete */
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.actionButton {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actionButton.edit {
+  background-color: #007bff;
+}
+
+.actionButton.edit:hover {
+  background-color: #0056b3;
+}
+
+.actionButton.delete {
+  background-color: #dc3545;
+}
+
+.actionButton.delete:hover {
+  background-color: #a71d2a;
+}
+
+/* Form for adding a new service */
+.addServiceForm {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.addServiceForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addServiceForm button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addServiceForm button:hover {
+  background-color: #218838;
+}
