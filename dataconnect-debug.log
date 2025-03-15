@@ -1,16 +1,16 @@
-I0311 14:34:58.930159   45332 load.go:37] Reloading schema and connectors...
-I0311 14:34:58.948666   45332 control.go:59] [/emulator/saloongo-app ba08] UpdateResources(): done
+I0312 07:37:14.580291   13772 load.go:37] Reloading schema and connectors...
+I0312 07:37:14.593239   13772 control.go:59] [/emulator/saloongo-app 6bfa] UpdateResources(): done
 Schema: sources: schema\schema.gql [2088B] 
 Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
-I0311 14:34:58.960262   45332 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
-I0311 14:34:58.962886   45332 collector.go:107] schema extensions wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect\\.dataconnect\\schema"
+I0312 07:37:14.601389   13772 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
+I0312 07:37:14.606966   13772 collector.go:107] schema extensions wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect\\.dataconnect\\schema"
 Generated sources: prelude.gql [65582B] 
-I0311 14:34:58.965793   45332 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
-Generated sources: react\esm\index.esm.js [0B] index.d.ts [246B] package.json [895B] README.md [2740B] react\index.d.ts [0B] react\esm\package.json [17B] react\index.cjs.js [0B] esm\index.esm.js [115B] esm\package.json [17B] index.cjs.js [151B] react\package.json [468B] 
-I0311 14:34:58.972714   45332 installsdk.go:76] Running command: C:\Program Files\nodejs\npm.cmd install file:dataconnect-generated\js\default-connector
-I0311 14:35:00.377899   45332 load.go:115] Finished reloading
-I0311 14:35:00.379000   45332 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
-I0311 14:35:00.379000   45332 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
-I0311 14:35:01.414100   45332 control.go:59] [/emulator/saloongo-app 4491] UpdateResources(): done
+I0312 07:37:14.607968   13772 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\Alex\\saloongo-app\\dataconnect-generated\\js\\default-connector"
+Generated sources: index.cjs.js [151B] README.md [2740B] react\esm\package.json [17B] react\index.cjs.js [0B] react\esm\index.esm.js [0B] esm\index.esm.js [115B] esm\package.json [17B] package.json [895B] react\index.d.ts [0B] react\package.json [468B] index.d.ts [246B] 
+I0312 07:37:14.627609   13772 installsdk.go:76] Running command: C:\Program Files\nodejs\npm.cmd install file:dataconnect-generated\js\default-connector
+I0312 07:37:15.789011   13772 load.go:115] Finished reloading
+I0312 07:37:15.790076   13772 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0312 07:37:15.790076   13772 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I0312 07:37:17.200539   13772 control.go:59] [/emulator/saloongo-app 00e7] UpdateResources(): done
 Schema: sources: schema\schema.gql [2088B] 
-Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+Connector "default": sources: connector\queries.gql [1802B] connector\mutations.gql [1233B] 
